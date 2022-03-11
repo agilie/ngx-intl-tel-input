@@ -62,6 +62,7 @@ export class NgxIntlTelInputComponent implements OnInit, OnChanges {
 	@Input() phoneValidation = true;
 	@Input() inputId = 'phone';
 	@Input() separateDialCode = false;
+	@Input() defaultPhoneMask = '00 00 00 00';
 	separateDialCodeClass: string;
 
 	@Output() readonly countryChange = new EventEmitter<Country>();
@@ -85,6 +86,7 @@ export class NgxIntlTelInputComponent implements OnInit, OnChanges {
 	disabled = false;
 	errors: Array<any> = ['Phone number is required.'];
 	countrySearchText = '';
+	public phoneMask = this.defaultPhoneMask;
 
 	@ViewChild('countryList') countryList: ElementRef;
 
@@ -273,6 +275,10 @@ export class NgxIntlTelInputComponent implements OnInit, OnChanges {
 	}
 
 	public onCountrySelect(country: Country, el): void {
+		const countryPlaceholder = country.placeHolder.replace(/[0-9]/g, '0');
+		if(countryPlaceholder) {
+			this.phoneMask = countryPlaceholder;
+		}
 		this.setSelectedCountry(country);
 
 		this.checkSeparateDialCodeStyle();
