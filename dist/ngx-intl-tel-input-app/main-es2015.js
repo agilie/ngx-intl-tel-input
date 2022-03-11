@@ -1772,7 +1772,7 @@ function NgxIntlTelInputComponent_div_4_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"]("+", ctx_r0.selectedCountry.dialCode, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" +", ctx_r0.selectedCountry.dialCode, " ");
 } }
 function NgxIntlTelInputComponent_div_6_div_1_Template(rf, ctx) { if (rf & 1) {
     const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
@@ -1857,7 +1857,7 @@ function NgxIntlTelInputComponent_div_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", ctx_r1.allCountries);
 } }
-const _c1 = function (a0) { return { "disabled": a0 }; };
+const _c1 = function (a0) { return { disabled: a0 }; };
 class NgxIntlTelInputComponent {
     constructor(countryCodeData) {
         this.countryCodeData = countryCodeData;
