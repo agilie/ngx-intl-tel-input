@@ -19,6 +19,7 @@ export const dropdownModuleForRoot: ModuleWithProviders<BsDropdownModule> = BsDr
 		dropdownModuleForRoot,
 		NgxMaskModule.forRoot(),
   ],
+
 	exports: [NgxIntlTelInputComponent, NativeElementInjectorDirective],
 })
 export class NgxIntlTelInputModule {
