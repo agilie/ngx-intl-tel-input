@@ -1,4 +1,5 @@
-/* eslint-disable max-len */
+/* eslint-disable */
+/* tslint-disable */
 import * as lpn from 'google-libphonenumber';
 
 /*
