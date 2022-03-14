@@ -8929,7 +8929,9 @@
             };
         }
 
-        return function () {
+        return function
+          /* ...args */
+        () {
           return fn.apply(that, arguments);
         };
       };
@@ -8979,7 +8981,9 @@
         var fn = aFunction(this);
         var partArgs = slice.call(arguments, 1);
 
-        var boundFunction = function bound() {
+        var boundFunction = function
+          /* args... */
+        bound() {
           var args = partArgs.concat(slice.call(arguments));
           return this instanceof boundFunction ? construct(fn, args.length, args) : fn.apply(that, args);
         };
@@ -13062,7 +13066,9 @@
         target: 'Array',
         proto: true
       }, {
-        flat: function flat() {
+        flat: function
+          /* depthArg = 1 */
+        flat() {
           var depthArg = arguments.length ? arguments[0] : undefined;
           var O = toObject(this);
           var sourceLen = toLength(O.length);
@@ -13492,7 +13498,9 @@
         stat: true,
         forced: ISNT_GENERIC
       }, {
-        of: function of() {
+        of: function
+          /* ...args */
+        of() {
           var index = 0;
           var argumentsLength = arguments.length;
           var result = new (typeof this == 'function' ? this : Array)(argumentsLength);
