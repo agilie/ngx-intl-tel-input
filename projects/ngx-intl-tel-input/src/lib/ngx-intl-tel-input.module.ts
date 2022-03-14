@@ -17,7 +17,7 @@ export const ngxMaskModuleForRoot = NgxMaskModule.forRoot();
 		FormsModule,
 		ReactiveFormsModule,
 		dropdownModuleForRoot,
-		ngxMaskModuleForRoot
+		ngxMaskModuleForRoot,
   ],
 
 	exports: [NgxIntlTelInputComponent, NativeElementInjectorDirective],

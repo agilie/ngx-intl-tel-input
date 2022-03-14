@@ -2375,7 +2375,7 @@ NgxIntlTelInputModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODU
             _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormsModule,
             _angular_forms__WEBPACK_IMPORTED_MODULE_6__.ReactiveFormsModule,
             dropdownModuleForRoot,
-            ngxMaskModuleForRoot
+            ngxMaskModuleForRoot,
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsetNgModuleScope"](NgxIntlTelInputModule, { declarations: [_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_1__.NgxIntlTelInputComponent, _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_0__.NativeElementInjectorDirective], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.CommonModule,
         _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormsModule,
