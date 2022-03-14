@@ -1521,6 +1521,14 @@
         },
 
         /* harmony export */
+        "ngxMaskModuleForRoot": function ngxMaskModuleForRoot() {
+          return (
+            /* binding */
+            _ngxMaskModuleForRoot
+          );
+        },
+
+        /* harmony export */
         "NgxIntlTelInputModule": function NgxIntlTelInputModule() {
           return (
             /* binding */
@@ -1539,13 +1547,13 @@
       /* harmony import */
 
 
-      var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @angular/common */
       93);
       /* harmony import */
 
 
-      var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @angular/forms */
       9298);
       /* harmony import */
@@ -1563,17 +1571,19 @@
       /* harmony import */
 
 
-      var ngx_mask__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      var ngx_mask__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! ngx-mask */
       4409);
       /* harmony import */
 
 
-      var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/core */
       1477);
 
       var _dropdownModuleForRoot = ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_2__.BsDropdownModule.forRoot();
+
+      var _ngxMaskModuleForRoot = ngx_mask__WEBPACK_IMPORTED_MODULE_3__.NgxMaskModule.forRoot();
 
       var _NgxIntlTelInputModule = /*#__PURE__*/_createClass(function _NgxIntlTelInputModule() {
         _classCallCheck(this, _NgxIntlTelInputModule);
@@ -1583,17 +1593,17 @@
         return new (t || _NgxIntlTelInputModule)();
       };
 
-      _NgxIntlTelInputModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({
+      _NgxIntlTelInputModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineNgModule"]({
         type: _NgxIntlTelInputModule
       });
-      _NgxIntlTelInputModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({
-        imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.ReactiveFormsModule, _dropdownModuleForRoot, ngx_mask__WEBPACK_IMPORTED_MODULE_6__.NgxMaskModule.forRoot()]]
+      _NgxIntlTelInputModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjector"]({
+        imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_5__.CommonModule, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.ReactiveFormsModule, _dropdownModuleForRoot, _ngxMaskModuleForRoot]]
       });
 
       (function () {
-        (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsetNgModuleScope"](_NgxIntlTelInputModule, {
+        (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsetNgModuleScope"](_NgxIntlTelInputModule, {
           declarations: [_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_1__.NgxIntlTelInputComponent, _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_0__.NativeElementInjectorDirective],
-          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.ReactiveFormsModule, ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_2__.BsDropdownModule, ngx_mask__WEBPACK_IMPORTED_MODULE_6__.NgxMaskModule],
+          imports: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.CommonModule, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.ReactiveFormsModule, ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_2__.BsDropdownModule, ngx_mask__WEBPACK_IMPORTED_MODULE_3__.NgxMaskModule],
           exports: [_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_1__.NgxIntlTelInputComponent, _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_0__.NativeElementInjectorDirective]
         });
       })();
@@ -1751,6 +1761,14 @@
           return (
             /* reexport safe */
             _lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_2__.dropdownModuleForRoot
+          );
+        },
+
+        /* harmony export */
+        "ngxMaskModuleForRoot": function ngxMaskModuleForRoot() {
+          return (
+            /* reexport safe */
+            _lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_2__.ngxMaskModuleForRoot
           );
         },
 

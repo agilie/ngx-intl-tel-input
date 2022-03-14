@@ -2345,15 +2345,16 @@ NgxIntlTelInputComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_M
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "dropdownModuleForRoot": function() { return /* binding */ dropdownModuleForRoot; },
+/* harmony export */   "ngxMaskModuleForRoot": function() { return /* binding */ ngxMaskModuleForRoot; },
 /* harmony export */   "NgxIntlTelInputModule": function() { return /* binding */ NgxIntlTelInputModule; }
 /* harmony export */ });
 /* harmony import */ var ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-bootstrap/dropdown */ 3676);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 93);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ 9298);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ 93);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ 9298);
 /* harmony import */ var _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./directives/native-element-injector.directive */ 1993);
 /* harmony import */ var _ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ngx-intl-tel-input.component */ 3749);
-/* harmony import */ var ngx_mask__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-mask */ 4409);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 1477);
+/* harmony import */ var ngx_mask__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ngx-mask */ 4409);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 1477);
 
 
 
@@ -2364,20 +2365,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const dropdownModuleForRoot = ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_2__.BsDropdownModule.forRoot();
+const ngxMaskModuleForRoot = ngx_mask__WEBPACK_IMPORTED_MODULE_3__.NgxMaskModule.forRoot();
 class NgxIntlTelInputModule {
 }
 NgxIntlTelInputModule.ɵfac = function NgxIntlTelInputModule_Factory(t) { return new (t || NgxIntlTelInputModule)(); };
-NgxIntlTelInputModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({ type: NgxIntlTelInputModule });
-NgxIntlTelInputModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({ imports: [[
-            _angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_5__.ReactiveFormsModule,
+NgxIntlTelInputModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineNgModule"]({ type: NgxIntlTelInputModule });
+NgxIntlTelInputModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjector"]({ imports: [[
+            _angular_common__WEBPACK_IMPORTED_MODULE_5__.CommonModule,
+            _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormsModule,
+            _angular_forms__WEBPACK_IMPORTED_MODULE_6__.ReactiveFormsModule,
             dropdownModuleForRoot,
-            ngx_mask__WEBPACK_IMPORTED_MODULE_6__.NgxMaskModule.forRoot(),
+            ngxMaskModuleForRoot
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsetNgModuleScope"](NgxIntlTelInputModule, { declarations: [_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_1__.NgxIntlTelInputComponent, _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_0__.NativeElementInjectorDirective], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_5__.ReactiveFormsModule, ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_2__.BsDropdownModule, ngx_mask__WEBPACK_IMPORTED_MODULE_6__.NgxMaskModule], exports: [_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_1__.NgxIntlTelInputComponent, _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_0__.NativeElementInjectorDirective] }); })();
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsetNgModuleScope"](NgxIntlTelInputModule, { declarations: [_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_1__.NgxIntlTelInputComponent, _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_0__.NativeElementInjectorDirective], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.CommonModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormsModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_6__.ReactiveFormsModule, ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_2__.BsDropdownModule, ngx_mask__WEBPACK_IMPORTED_MODULE_3__.NgxMaskModule], exports: [_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_1__.NgxIntlTelInputComponent, _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_0__.NativeElementInjectorDirective] }); })();
 
 
 /***/ }),
@@ -2473,6 +2475,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "NativeElementInjectorDirective": function() { return /* reexport safe */ _lib_directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_1__.NativeElementInjectorDirective; },
 /* harmony export */   "NgxIntlTelInputModule": function() { return /* reexport safe */ _lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_2__.NgxIntlTelInputModule; },
 /* harmony export */   "dropdownModuleForRoot": function() { return /* reexport safe */ _lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_2__.dropdownModuleForRoot; },
+/* harmony export */   "ngxMaskModuleForRoot": function() { return /* reexport safe */ _lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_2__.ngxMaskModuleForRoot; },
 /* harmony export */   "CountryISO": function() { return /* reexport safe */ _lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_3__.CountryISO; },
 /* harmony export */   "SearchCountryField": function() { return /* reexport safe */ _lib_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_4__.SearchCountryField; },
 /* harmony export */   "PhoneNumberFormat": function() { return /* reexport safe */ _lib_enums_phone_number_format_enum__WEBPACK_IMPORTED_MODULE_5__.PhoneNumberFormat; }
