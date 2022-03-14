@@ -9,7 +9,7 @@ import { NgxIntlTelInputComponent } from './ngx-intl-tel-input.component';
 import { NgxMaskModule } from 'ngx-mask';
 
 export const dropdownModuleForRoot: ModuleWithProviders<BsDropdownModule> = BsDropdownModule.forRoot();
-
+export const ngxMaskModuleForRoot = NgxMaskModule.forRoot();
 @NgModule({
 	declarations: [NgxIntlTelInputComponent, NativeElementInjectorDirective],
 	imports: [
@@ -17,7 +17,7 @@ export const dropdownModuleForRoot: ModuleWithProviders<BsDropdownModule> = BsDr
 		FormsModule,
 		ReactiveFormsModule,
 		dropdownModuleForRoot,
-		NgxMaskModule.forRoot(),
+		ngxMaskModuleForRoot
   ],
 
 	exports: [NgxIntlTelInputComponent, NativeElementInjectorDirective],
