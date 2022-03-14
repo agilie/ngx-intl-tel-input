@@ -16,7 +16,7 @@
     "copy-files": "npm run copy-license && npm run copy-readme",
     "npm_pack": "npm run copy-files && cd dist/ngx-intl-tel-input && npm pack",
     "package": "npm run build_lib && npm run npm_pack",
-    "postinstall": "ngcc",
+		"postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
     "prepare": "npm run build && ng build ngx-intl-tel-input"
   },
   "private": true,
@@ -35,7 +35,6 @@
     "intl-tel-input": "^17.0.3",
     "jquery": "^3.5.0",
     "ngx-bootstrap": "^6.0.0",
-    "ngx-mask": "^13.1.1",
     "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
