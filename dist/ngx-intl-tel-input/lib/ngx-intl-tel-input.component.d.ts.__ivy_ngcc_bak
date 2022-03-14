@@ -5,7 +5,6 @@ import { SearchCountryField } from './enums/search-country-field.enum';
 import type { ChangeData } from './interfaces/change-data';
 import type { Country } from './model/country.model';
 import { PhoneNumberFormat } from './enums/phone-number-format.enum';
-import * as ɵngcc0 from '@angular/core';
 export declare class NgxIntlTelInputComponent implements OnInit, OnChanges {
     private countryCodeData;
     value: string;
@@ -96,8 +95,4 @@ export declare class NgxIntlTelInputComponent implements OnInit, OnChanges {
      * Updates selectedCountry.
      */
     private updateSelectedCountry;
-    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<NgxIntlTelInputComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDeclaration<NgxIntlTelInputComponent, "ngx-intl-tel-input", never, { "value": "value"; "preferredCountries": "preferredCountries"; "enablePlaceholder": "enablePlaceholder"; "numberFormat": "numberFormat"; "cssClass": "cssClass"; "onlyCountries": "onlyCountries"; "enableAutoCountrySelect": "enableAutoCountrySelect"; "searchCountryFlag": "searchCountryFlag"; "searchCountryField": "searchCountryField"; "searchCountryPlaceholder": "searchCountryPlaceholder"; "maxLength": "maxLength"; "selectFirstCountry": "selectFirstCountry"; "phoneValidation": "phoneValidation"; "inputId": "inputId"; "separateDialCode": "separateDialCode"; "defaultPhoneMask": "defaultPhoneMask"; "customPlaceholder": "customPlaceholder"; "selectedCountryISO": "selectedCountryISO"; }, { "countryChange": "countryChange"; }, never, never>;
 }
-
-//# sourceMappingURL=ngx-intl-tel-input.component.d.ts.map
