@@ -36,23 +36,24 @@
     "url": "https://github.com/webcat12345/ngx-intl-tel-input/issues"
   },
   "main": "bundles/ngx-intl-tel-input.umd.js",
+  "module_ivy_ngcc": "__ivy_ngcc__/fesm2015/ngx-intl-tel-input.js",
   "module": "fesm2015/ngx-intl-tel-input.js",
+  "es2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/ngx-intl-tel-input.js",
   "es2015": "fesm2015/ngx-intl-tel-input.js",
   "esm2015": "esm2015/ngx-intl-tel-input.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/ngx-intl-tel-input.js",
   "fesm2015": "fesm2015/ngx-intl-tel-input.js",
   "typings": "ngx-intl-tel-input.d.ts",
   "metadata": "ngx-intl-tel-input.metadata.json",
   "sideEffects": false,
   "dependencies": {
-    "tslib": "^2.2.0"
+    "tslib": "^2.0.0"
   },
   "__processed_by_ivy_ngcc__": {
-    "es2015": "12.2.16",
-    "esm2015": "12.2.16",
-    "fesm2015": "12.2.16",
-    "main": "12.2.16",
-    "module": "12.2.16",
-    "typings": "12.2.16"
+    "es2015": "11.2.14",
+    "fesm2015": "11.2.14",
+    "module": "11.2.14",
+    "typings": "11.2.14"
   },
   "scripts": {
     "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"

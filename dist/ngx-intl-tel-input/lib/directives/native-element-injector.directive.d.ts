@@ -6,8 +6,8 @@ export declare class NativeElementInjectorDirective implements OnInit {
     private host;
     constructor(controlDir: NgControl, host: ElementRef<HTMLFormElement>);
     ngOnInit(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<NativeElementInjectorDirective, never>;
-    static ɵdir: ɵngcc0.ɵɵDirectiveDeclaration<NativeElementInjectorDirective, "[ngModel], [formControl], [formControlName]", never, {}, {}, never>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<NativeElementInjectorDirective, never>;
+    static ɵdir: ɵngcc0.ɵɵDirectiveDefWithMeta<NativeElementInjectorDirective, "[ngModel], [formControl], [formControlName]", never, {}, {}, never>;
 }
 
 //# sourceMappingURL=native-element-injector.directive.d.ts.map

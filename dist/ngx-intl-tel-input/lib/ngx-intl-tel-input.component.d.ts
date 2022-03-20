@@ -96,8 +96,8 @@ export declare class NgxIntlTelInputComponent implements OnInit, OnChanges {
      * Updates selectedCountry.
      */
     private updateSelectedCountry;
-    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<NgxIntlTelInputComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDeclaration<NgxIntlTelInputComponent, "ngx-intl-tel-input", never, { "value": "value"; "preferredCountries": "preferredCountries"; "enablePlaceholder": "enablePlaceholder"; "numberFormat": "numberFormat"; "cssClass": "cssClass"; "onlyCountries": "onlyCountries"; "enableAutoCountrySelect": "enableAutoCountrySelect"; "searchCountryFlag": "searchCountryFlag"; "searchCountryField": "searchCountryField"; "searchCountryPlaceholder": "searchCountryPlaceholder"; "maxLength": "maxLength"; "selectFirstCountry": "selectFirstCountry"; "phoneValidation": "phoneValidation"; "inputId": "inputId"; "separateDialCode": "separateDialCode"; "defaultPhoneMask": "defaultPhoneMask"; "customPlaceholder": "customPlaceholder"; "selectedCountryISO": "selectedCountryISO"; }, { "countryChange": "countryChange"; }, never, never>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgxIntlTelInputComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<NgxIntlTelInputComponent, "ngx-intl-tel-input", never, { "value": "value"; "preferredCountries": "preferredCountries"; "enablePlaceholder": "enablePlaceholder"; "numberFormat": "numberFormat"; "cssClass": "cssClass"; "onlyCountries": "onlyCountries"; "enableAutoCountrySelect": "enableAutoCountrySelect"; "searchCountryFlag": "searchCountryFlag"; "searchCountryField": "searchCountryField"; "searchCountryPlaceholder": "searchCountryPlaceholder"; "maxLength": "maxLength"; "selectFirstCountry": "selectFirstCountry"; "phoneValidation": "phoneValidation"; "inputId": "inputId"; "separateDialCode": "separateDialCode"; "defaultPhoneMask": "defaultPhoneMask"; "customPlaceholder": "customPlaceholder"; "selectedCountryISO": "selectedCountryISO"; }, { "countryChange": "countryChange"; }, never, never>;
 }
 
 //# sourceMappingURL=ngx-intl-tel-input.component.d.ts.map

@@ -1,58 +1,37 @@
-(self["webpackChunkngx_intl_tel_input_app"] = self["webpackChunkngx_intl_tel_input_app"] || []).push([["main"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
-/***/ 8255:
-/*!*******************************************************!*\
-  !*** ./$_lazy_route_resources/ lazy namespace object ***!
-  \*******************************************************/
-/***/ (function(module) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncaught exception popping up in devtools
-	return Promise.resolve().then(function() {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 8255;
-module.exports = webpackEmptyAsyncContext;
-
-/***/ }),
-
-/***/ 3065:
+/***/ "/5pC":
 /*!******************************************************************!*\
   !*** ./projects/ngx-intl-tel-input/src/lib/data/country-code.ts ***!
   \******************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/*! exports provided: CountryCode */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "CountryCode": function() { return /* binding */ CountryCode; }
-/* harmony export */ });
-/* harmony import */ var _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../enums/country-iso.enum */ 5924);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 1477);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CountryCode", function() { return CountryCode; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../enums/country-iso.enum */ "HZF/");
 
 
-class CountryCode {
+
+let CountryCode = class CountryCode {
     constructor() {
         this.allCountries = [
             [
                 'Afghanistan (‫افغانستان‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Afghanistan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Afghanistan,
                 '93'
             ],
             [
                 'Albania (Shqipëri)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Albania,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Albania,
                 '355'
             ],
             [
                 'Algeria (‫الجزائر‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Algeria,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Algeria,
                 '213'
             ],
             [
@@ -66,12 +45,12 @@ class CountryCode {
             ],
             [
                 'Andorra',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Andorra,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Andorra,
                 '376'
             ],
             [
                 'Angola',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Angola,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Angola,
                 '244'
             ],
             [
@@ -94,33 +73,33 @@ class CountryCode {
             ],
             [
                 'Argentina',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Argentina,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Argentina,
                 '54'
             ],
             [
                 'Armenia (Հայաստան)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Armenia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Armenia,
                 '374'
             ],
             [
                 'Aruba',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Aruba,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Aruba,
                 '297'
             ],
             [
                 'Australia',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Australia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Australia,
                 '61',
                 0
             ],
             [
                 'Austria (Österreich)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Austria,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Austria,
                 '43'
             ],
             [
                 'Azerbaijan (Azərbaycan)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Azerbaijan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Azerbaijan,
                 '994'
             ],
             [
@@ -134,12 +113,12 @@ class CountryCode {
             ],
             [
                 'Bahrain (‫البحرين‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Bahrain,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Bahrain,
                 '973'
             ],
             [
                 'Bangladesh (বাংলাদেশ)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Bangladesh,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Bangladesh,
                 '880'
             ],
             [
@@ -153,22 +132,22 @@ class CountryCode {
             ],
             [
                 'Belarus (Беларусь)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Belarus,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Belarus,
                 '375'
             ],
             [
                 'Belgium (België)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Belgium,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Belgium,
                 '32'
             ],
             [
                 'Belize',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Belize,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Belize,
                 '501'
             ],
             [
                 'Benin (Bénin)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Benin,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Benin,
                 '229'
             ],
             [
@@ -182,32 +161,32 @@ class CountryCode {
             ],
             [
                 'Bhutan (འབྲུག)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Bhutan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Bhutan,
                 '975'
             ],
             [
                 'Bolivia',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Bolivia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Bolivia,
                 '591'
             ],
             [
                 'Bosnia and Herzegovina (Босна и Херцеговина)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.BosniaAndHerzegovina,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].BosniaAndHerzegovina,
                 '387'
             ],
             [
                 'Botswana',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Botswana,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Botswana,
                 '267'
             ],
             [
                 'Brazil (Brasil)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Brazil,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Brazil,
                 '55'
             ],
             [
                 'British Indian Ocean Territory',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.BritishIndianOceanTerritory,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].BritishIndianOceanTerritory,
                 '246'
             ],
             [
@@ -221,37 +200,37 @@ class CountryCode {
             ],
             [
                 'Brunei',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Brunei,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Brunei,
                 '673'
             ],
             [
                 'Bulgaria (България)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Bulgaria,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Bulgaria,
                 '359'
             ],
             [
                 'Burkina Faso',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.BurkinaFaso,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].BurkinaFaso,
                 '226'
             ],
             [
                 'Burundi (Uburundi)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Burundi,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Burundi,
                 '257'
             ],
             [
                 'Cambodia (កម្ពុជា)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Cambodia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Cambodia,
                 '855'
             ],
             [
                 'Cameroon (Cameroun)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Cameroon,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Cameroon,
                 '237'
             ],
             [
                 'Canada',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Canada,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Canada,
                 '1',
                 1,
                 [
@@ -263,12 +242,12 @@ class CountryCode {
             ],
             [
                 'Cape Verde (Kabu Verdi)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.CapeVerde,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].CapeVerde,
                 '238'
             ],
             [
                 'Caribbean Netherlands',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.CaribbeanNetherlands,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].CaribbeanNetherlands,
                 '599',
                 1
             ],
@@ -283,238 +262,238 @@ class CountryCode {
             ],
             [
                 'Central African Republic (République centrafricaine)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.CentralAfricanRepublic,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].CentralAfricanRepublic,
                 '236'
             ],
             [
                 'Chad (Tchad)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Chad,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Chad,
                 '235'
             ],
             [
                 'Chile',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Chile,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Chile,
                 '56'
             ],
             [
                 'China (中国)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.China,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].China,
                 '86'
             ],
             [
                 'Christmas Island',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.ChristmasIsland,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].ChristmasIsland,
                 '61',
                 2
             ],
             [
                 'Cocos (Keeling) Islands',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Cocos,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Cocos,
                 '61',
                 1
             ],
             [
                 'Colombia',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Colombia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Colombia,
                 '57'
             ],
             [
                 'Comoros (‫جزر القمر‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Comoros,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Comoros,
                 '269'
             ],
             [
                 'Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.CongoDRCJamhuriYaKidemokrasiaYaKongo,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].CongoDRCJamhuriYaKidemokrasiaYaKongo,
                 '243'
             ],
             [
                 'Congo (Republic) (Congo-Brazzaville)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.CongoRepublicCongoBrazzaville,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].CongoRepublicCongoBrazzaville,
                 '242'
             ],
             [
                 'Cook Islands',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.CookIslands,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].CookIslands,
                 '682'
             ],
             [
                 'Costa Rica',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.CostaRica,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].CostaRica,
                 '506'
             ],
             [
                 'Côte d’Ivoire',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO["CôteDIvoire"],
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].CôteDIvoire,
                 '225'
             ],
             [
                 'Croatia (Hrvatska)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Croatia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Croatia,
                 '385'
             ],
             [
                 'Cuba',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Cuba,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Cuba,
                 '53'
             ],
             [
                 'Curaçao',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO["Curaçao"],
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Curaçao,
                 '599',
                 0
             ],
             [
                 'Cyprus (Κύπρος)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Cyprus,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Cyprus,
                 '357'
             ],
             [
                 'Czech Republic (Česká republika)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.CzechRepublic,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].CzechRepublic,
                 '420'
             ],
             [
                 'Denmark (Danmark)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Denmark,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Denmark,
                 '45'
             ],
             [
                 'Djibouti',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Djibouti,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Djibouti,
                 '253'
             ],
             [
                 'Dominica',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Dominica,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Dominica,
                 '1767'
             ],
             [
                 'Dominican Republic (República Dominicana)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.DominicanRepublic,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].DominicanRepublic,
                 '1',
                 2,
                 ['809', '829', '849']
             ],
             [
                 'Ecuador',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Ecuador,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Ecuador,
                 '593'
             ],
             [
                 'Egypt (‫مصر‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Egypt,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Egypt,
                 '20'
             ],
             [
                 'El Salvador',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.ElSalvador,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].ElSalvador,
                 '503'
             ],
             [
                 'Equatorial Guinea (Guinea Ecuatorial)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.EquatorialGuinea,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].EquatorialGuinea,
                 '240'
             ],
             [
                 'Eritrea',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Eritrea,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Eritrea,
                 '291'
             ],
             [
                 'Estonia (Eesti)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Estonia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Estonia,
                 '372'
             ],
             [
                 'Ethiopia',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Ethiopia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Ethiopia,
                 '251'
             ],
             [
                 'Falkland Islands (Islas Malvinas)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.FalklandIslands,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].FalklandIslands,
                 '500'
             ],
             [
                 'Faroe Islands (Føroyar)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.FaroeIslands,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].FaroeIslands,
                 '298'
             ],
             [
                 'Fiji',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Fiji,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Fiji,
                 '679'
             ],
             [
                 'Finland (Suomi)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Finland,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Finland,
                 '358',
                 0
             ],
             [
                 'France',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.France,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].France,
                 '33'
             ],
             [
                 'French Guiana (Guyane française)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.FrenchGuiana,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].FrenchGuiana,
                 '594'
             ],
             [
                 'French Polynesia (Polynésie française)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.FrenchPolynesia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].FrenchPolynesia,
                 '689'
             ],
             [
                 'Gabon',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Gabon,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Gabon,
                 '241'
             ],
             [
                 'Gambia',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Gambia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Gambia,
                 '220'
             ],
             [
                 'Georgia (საქართველო)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Georgia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Georgia,
                 '995'
             ],
             [
                 'Germany (Deutschland)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Germany,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Germany,
                 '49'
             ],
             [
                 'Ghana (Gaana)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Ghana,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Ghana,
                 '233'
             ],
             [
                 'Gibraltar',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Gibraltar,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Gibraltar,
                 '350'
             ],
             [
                 'Greece (Ελλάδα)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Greece,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Greece,
                 '30'
             ],
             [
                 'Greenland (Kalaallit Nunaat)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Greenland,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Greenland,
                 '299'
             ],
             [
                 'Grenada',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Grenada,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Grenada,
                 '1473'
             ],
             [
                 'Guadeloupe',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Guadeloupe,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Guadeloupe,
                 '590',
                 0
             ],
@@ -529,96 +508,96 @@ class CountryCode {
             ],
             [
                 'Guatemala',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Guatemala,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Guatemala,
                 '502'
             ],
             [
                 'Guernsey',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Guernsey,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Guernsey,
                 '44',
                 1,
                 [1481]
             ],
             [
                 'Guinea (Guinée)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Guinea,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Guinea,
                 '224'
             ],
             [
                 'Guinea-Bissau (Guiné Bissau)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.GuineaBissau,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].GuineaBissau,
                 '245'
             ],
             [
                 'Guyana',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Guyana,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Guyana,
                 '592'
             ],
             [
                 'Haiti',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Haiti,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Haiti,
                 '509'
             ],
             [
                 'Honduras',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Honduras,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Honduras,
                 '504'
             ],
             [
                 'Hong Kong (香港)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.HongKong,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].HongKong,
                 '852'
             ],
             [
                 'Hungary (Magyarország)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Hungary,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Hungary,
                 '36'
             ],
             [
                 'Iceland (Ísland)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Iceland,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Iceland,
                 '354'
             ],
             [
                 'India (भारत)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.India,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].India,
                 '91'
             ],
             [
                 'Indonesia',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Indonesia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Indonesia,
                 '62'
             ],
             [
                 'Iran (‫ایران‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Iran,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Iran,
                 '98'
             ],
             [
                 'Iraq (‫العراق‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Iraq,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Iraq,
                 '964'
             ],
             [
                 'Ireland',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Ireland,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Ireland,
                 '353'
             ],
             [
                 'Isle of Man',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.IsleOfMan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].IsleOfMan,
                 '44',
                 2,
                 [1624]
             ],
             [
                 'Israel (‫ישראל‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Israel,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Israel,
                 '972'
             ],
             [
                 'Italy (Italia)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Italy,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Italy,
                 '39',
                 0
             ],
@@ -633,191 +612,191 @@ class CountryCode {
             ],
             [
                 'Japan (日本)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Japan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Japan,
                 '81'
             ],
             [
                 'Jersey',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Jersey,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Jersey,
                 '44',
                 3,
                 [1534]
             ],
             [
                 'Jordan (‫الأردن‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Jordan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Jordan,
                 '962'
             ],
             [
                 'Kazakhstan (Казахстан)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Kazakhstan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Kazakhstan,
                 '7',
                 1
             ],
             [
                 'Kenya',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Kenya,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Kenya,
                 '254'
             ],
             [
                 'Kiribati',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Kiribati,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Kiribati,
                 '686'
             ],
             [
                 'Kosovo',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Kosovo,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Kosovo,
                 '383'
             ],
             [
                 'Kuwait (‫الكويت‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Kuwait,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Kuwait,
                 '965'
             ],
             [
                 'Kyrgyzstan (Кыргызстан)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Kyrgyzstan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Kyrgyzstan,
                 '996'
             ],
             [
                 'Laos (ລາວ)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Laos,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Laos,
                 '856'
             ],
             [
                 'Latvia (Latvija)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Latvia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Latvia,
                 '371'
             ],
             [
                 'Lebanon (‫لبنان‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Lebanon,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Lebanon,
                 '961'
             ],
             [
                 'Lesotho',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Lesotho,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Lesotho,
                 '266'
             ],
             [
                 'Liberia',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Liberia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Liberia,
                 '231'
             ],
             [
                 'Libya (‫ليبيا‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Libya,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Libya,
                 '218'
             ],
             [
                 'Liechtenstein',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Liechtenstein,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Liechtenstein,
                 '423'
             ],
             [
                 'Lithuania (Lietuva)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Lithuania,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Lithuania,
                 '370'
             ],
             [
                 'Luxembourg',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Luxembourg,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Luxembourg,
                 '352'
             ],
             [
                 'Macau (澳門)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Macau,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Macau,
                 '853'
             ],
             [
                 'Macedonia (FYROM) (Македонија)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Macedonia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Macedonia,
                 '389'
             ],
             [
                 'Madagascar (Madagasikara)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Madagascar,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Madagascar,
                 '261'
             ],
             [
                 'Malawi',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Malawi,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Malawi,
                 '265'
             ],
             [
                 'Malaysia',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Malaysia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Malaysia,
                 '60'
             ],
             [
                 'Maldives',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Maldives,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Maldives,
                 '960'
             ],
             [
                 'Mali',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Mali,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Mali,
                 '223'
             ],
             [
                 'Malta',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Malta,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Malta,
                 '356'
             ],
             [
                 'Marshall Islands',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.MarshallIslands,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].MarshallIslands,
                 '692'
             ],
             [
                 'Martinique',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Martinique,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Martinique,
                 '596'
             ],
             [
                 'Mauritania (‫موريتانيا‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Mauritania,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Mauritania,
                 '222'
             ],
             [
                 'Mauritius (Moris)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Mauritius,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Mauritius,
                 '230'
             ],
             [
                 'Mayotte',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Mayotte,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Mayotte,
                 '262',
                 1
             ],
             [
                 'Mexico (México)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Mexico,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Mexico,
                 '52'
             ],
             [
                 'Micronesia',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Micronesia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Micronesia,
                 '691'
             ],
             [
                 'Moldova (Republica Moldova)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Moldova,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Moldova,
                 '373'
             ],
             [
                 'Monaco',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Monaco,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Monaco,
                 '377'
             ],
             [
                 'Mongolia (Монгол)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Mongolia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Mongolia,
                 '976'
             ],
             [
                 'Montenegro (Crna Gora)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Montenegro,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Montenegro,
                 '382'
             ],
             [
@@ -831,194 +810,194 @@ class CountryCode {
             ],
             [
                 'Morocco (‫المغرب‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Morocco,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Morocco,
                 '212',
                 0
             ],
             [
                 'Mozambique (Moçambique)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Mozambique,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Mozambique,
                 '258'
             ],
             [
                 'Myanmar (Burma) (မြန်မာ)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Myanmar,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Myanmar,
                 '95'
             ],
             [
                 'Namibia (Namibië)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Namibia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Namibia,
                 '264'
             ],
             [
                 'Nauru',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Nauru,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Nauru,
                 '674'
             ],
             [
                 'Nepal (नेपाल)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Nepal,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Nepal,
                 '977'
             ],
             [
                 'Netherlands (Nederland)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Netherlands,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Netherlands,
                 '31'
             ],
             [
                 'New Caledonia (Nouvelle-Calédonie)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.NewCaledonia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].NewCaledonia,
                 '687'
             ],
             [
                 'New Zealand',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.NewZealand,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].NewZealand,
                 '64'
             ],
             [
                 'Nicaragua',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Nicaragua,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Nicaragua,
                 '505'
             ],
             [
                 'Niger (Nijar)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Niger,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Niger,
                 '227'
             ],
             [
                 'Nigeria',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Nigeria,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Nigeria,
                 '234'
             ],
             [
                 'Niue',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Niue,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Niue,
                 '683'
             ],
             [
                 'Norfolk Island',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.NorfolkIsland,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].NorfolkIsland,
                 '672'
             ],
             [
                 'North Korea (조선 민주주의 인민 공화국)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.NorthKorea,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].NorthKorea,
                 '850'
             ],
             [
                 'Northern Mariana Islands',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.NorthernMarianaIslands,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].NorthernMarianaIslands,
                 '1670'
             ],
             [
                 'Norway (Norge)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Norway,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Norway,
                 '47',
                 0
             ],
             [
                 'Oman (‫عُمان‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Oman,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Oman,
                 '968'
             ],
             [
                 'Pakistan (‫پاکستان‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Pakistan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Pakistan,
                 '92'
             ],
             [
                 'Palau',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Palau,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Palau,
                 '680'
             ],
             [
                 'Palestine (‫فلسطين‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Palestine,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Palestine,
                 '970'
             ],
             [
                 'Panama (Panamá)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Panama,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Panama,
                 '507'
             ],
             [
                 'Papua New Guinea',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.PapuaNewGuinea,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].PapuaNewGuinea,
                 '675'
             ],
             [
                 'Paraguay',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Paraguay,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Paraguay,
                 '595'
             ],
             [
                 'Peru (Perú)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Peru,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Peru,
                 '51'
             ],
             [
                 'Philippines',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Philippines,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Philippines,
                 '63'
             ],
             [
                 'Poland (Polska)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Poland,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Poland,
                 '48'
             ],
             [
                 'Portugal',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Portugal,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Portugal,
                 '351'
             ],
             [
                 'Puerto Rico',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.PuertoRico,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].PuertoRico,
                 '1',
                 3,
                 ['787', '939']
             ],
             [
                 'Qatar (‫قطر‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Qatar,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Qatar,
                 '974'
             ],
             [
                 'Réunion (La Réunion)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO["Réunion"],
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Réunion,
                 '262',
                 0
             ],
             [
                 'Romania (România)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Romania,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Romania,
                 '40'
             ],
             [
                 'Russia (Россия)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Russia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Russia,
                 '7',
                 0
             ],
             [
                 'Rwanda',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Rwanda,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Rwanda,
                 '250'
             ],
             [
                 'Saint Barthélemy (Saint-Barthélemy)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO["SaintBarthélemy"],
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SaintBarthélemy,
                 '590',
                 1
             ],
             [
                 'Saint Helena',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SaintHelena,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SaintHelena,
                 '290'
             ],
             [
                 'Saint Kitts and Nevis',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SaintKittsAndNevis,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SaintKittsAndNevis,
                 '1869'
             ],
             [
@@ -1032,13 +1011,13 @@ class CountryCode {
             ],
             [
                 'Saint Martin (Saint-Martin (partie française))',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SaintMartin,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SaintMartin,
                 '590',
                 2
             ],
             [
                 'Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SaintPierreAndMiquelon,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SaintPierreAndMiquelon,
                 '508'
             ],
             [
@@ -1052,47 +1031,47 @@ class CountryCode {
             ],
             [
                 'Samoa',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Samoa,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Samoa,
                 '685'
             ],
             [
                 'San Marino',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SanMarino,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SanMarino,
                 '378'
             ],
             [
                 'São Tomé and Príncipe (São Tomé e Príncipe)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO["SãoToméAndPríncipe"],
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SãoToméAndPríncipe,
                 '239'
             ],
             [
                 'Saudi Arabia (‫المملكة العربية السعودية‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SaudiArabia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SaudiArabia,
                 '966'
             ],
             [
                 'Senegal (Sénégal)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Senegal,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Senegal,
                 '221'
             ],
             [
                 'Serbia (Србија)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Serbia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Serbia,
                 '381'
             ],
             [
                 'Seychelles',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Seychelles,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Seychelles,
                 '248'
             ],
             [
                 'Sierra Leone',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SierraLeone,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SierraLeone,
                 '232'
             ],
             [
                 'Singapore',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Singapore,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Singapore,
                 '65'
             ],
             [
@@ -1106,123 +1085,123 @@ class CountryCode {
             ],
             [
                 'Slovakia (Slovensko)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Slovakia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Slovakia,
                 '421'
             ],
             [
                 'Slovenia (Slovenija)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Slovenia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Slovenia,
                 '386'
             ],
             [
                 'Solomon Islands',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SolomonIslands,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SolomonIslands,
                 '677'
             ],
             [
                 'Somalia (Soomaaliya)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Somalia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Somalia,
                 '252'
             ],
             [
                 'South Africa',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SouthAfrica,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SouthAfrica,
                 '27'
             ],
             [
                 'South Korea (대한민국)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SouthKorea,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SouthKorea,
                 '82'
             ],
             [
                 'South Sudan (‫جنوب السودان‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SouthSudan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SouthSudan,
                 '211'
             ],
             [
                 'Spain (España)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Spain,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Spain,
                 '34'
             ],
             [
                 'Sri Lanka (ශ්‍රී ලංකාව)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SriLanka,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SriLanka,
                 '94'
             ],
             [
                 'Sudan (‫السودان‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Sudan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Sudan,
                 '249'
             ],
             [
                 'Suriname',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Suriname,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Suriname,
                 '597'
             ],
             [
                 'Svalbard and Jan Mayen',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.SvalbardAndJanMayen,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].SvalbardAndJanMayen,
                 '47',
                 1
             ],
             [
                 'Swaziland',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Swaziland,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Swaziland,
                 '268'
             ],
             [
                 'Sweden (Sverige)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Sweden,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Sweden,
                 '46'
             ],
             [
                 'Switzerland (Schweiz)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Switzerland,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Switzerland,
                 '41'
             ],
             [
                 'Syria (‫سوريا‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Syria,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Syria,
                 '963'
             ],
             [
                 'Taiwan (台灣)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Taiwan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Taiwan,
                 '886'
             ],
             [
                 'Tajikistan',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Tajikistan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Tajikistan,
                 '992'
             ],
             [
                 'Tanzania',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Tanzania,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Tanzania,
                 '255'
             ],
             [
                 'Thailand (ไทย)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Thailand,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Thailand,
                 '66'
             ],
             [
                 'Timor-Leste',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.TimorLeste,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].TimorLeste,
                 '670'
             ],
             [
                 'Togo',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Togo,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Togo,
                 '228'
             ],
             [
                 'Tokelau',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Tokelau,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Tokelau,
                 '690'
             ],
             [
                 'Tonga',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Tonga,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Tonga,
                 '676'
             ],
             [
@@ -1236,27 +1215,27 @@ class CountryCode {
             ],
             [
                 'Tunisia (‫تونس‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Tunisia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Tunisia,
                 '216'
             ],
             [
                 'Turkey (Türkiye)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Turkey,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Turkey,
                 '90'
             ],
             [
                 'Turkmenistan',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Turkmenistan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Turkmenistan,
                 '993'
             ],
             [
                 'Turks and Caicos Islands',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.TurksAndCaicosIslands,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].TurksAndCaicosIslands,
                 '1649'
             ],
             [
                 'Tuvalu',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Tuvalu,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Tuvalu,
                 '688'
             ],
             [
@@ -1270,116 +1249,690 @@ class CountryCode {
             ],
             [
                 'Uganda',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Uganda,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Uganda,
                 '256'
             ],
             [
                 'Ukraine (Україна)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Ukraine,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Ukraine,
                 '380'
             ],
             [
                 'United Arab Emirates (‫الإمارات العربية المتحدة‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.UnitedArabEmirates,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].UnitedArabEmirates,
                 '971'
             ],
             [
                 'United Kingdom',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.UnitedKingdom,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].UnitedKingdom,
                 '44',
                 0
             ],
             [
                 'United States',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.UnitedStates,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].UnitedStates,
                 '1',
                 0
             ],
             [
                 'Uruguay',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Uruguay,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Uruguay,
                 '598'
             ],
             [
                 'Uzbekistan (Oʻzbekiston)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Uzbekistan,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Uzbekistan,
                 '998'
             ],
             [
                 'Vanuatu',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Vanuatu,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Vanuatu,
                 '678'
             ],
             [
                 'Vatican City (Città del Vaticano)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.VaticanCity,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].VaticanCity,
                 '39',
                 1
             ],
             [
                 'Venezuela',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Venezuela,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Venezuela,
                 '58'
             ],
             [
                 'Vietnam (Việt Nam)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Vietnam,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Vietnam,
                 '84'
             ],
             [
                 'Wallis and Futuna',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.WallisAndFutuna,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].WallisAndFutuna,
                 '681'
             ],
             [
                 'Western Sahara (‫الصحراء الغربية‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.WesternSahara,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].WesternSahara,
                 '212',
                 1
             ],
             [
                 'Yemen (‫اليمن‬‎)',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Yemen,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Yemen,
                 '967'
             ],
             [
                 'Zambia',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Zambia,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Zambia,
                 '260'
             ],
             [
                 'Zimbabwe',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Zimbabwe,
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].Zimbabwe,
                 '263'
             ],
             [
                 'Åland Islands',
-                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO["ÅlandIslands"],
+                _enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_2__["CountryISO"].ÅlandIslands,
                 '358',
                 1
             ]
         ];
     }
-}
-CountryCode.ɵfac = function CountryCode_Factory(t) { return new (t || CountryCode)(); };
-CountryCode.ɵprov = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({ token: CountryCode, factory: CountryCode.ɵfac });
+};
+CountryCode = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+], CountryCode);
+
 
 
 /***/ }),
 
-/***/ 1993:
-/*!*********************************************************************************************!*\
-  !*** ./projects/ngx-intl-tel-input/src/lib/directives/native-element-injector.directive.ts ***!
-  \*********************************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ 0:
+/*!***************************!*\
+  !*** multi ./src/main.ts ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! /Users/mell/_projects/ngx-intl-tel-input/src/main.ts */"zUnb");
+
+
+/***/ }),
+
+/***/ "4I9l":
+/*!*****************************************************************************!*\
+  !*** ./projects/ngx-intl-tel-input/src/lib/ngx-intl-tel-input.component.ts ***!
+  \*****************************************************************************/
+/*! exports provided: NgxIntlTelInputComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "NativeElementInjectorDirective": function() { return /* binding */ NativeElementInjectorDirective; }
-/* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1477);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ 9298);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgxIntlTelInputComponent", function() { return NgxIntlTelInputComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
+/* harmony import */ var _raw_loader_ngx_intl_tel_input_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./ngx-intl-tel-input.component.html */ "TGSw");
+/* harmony import */ var _bootstrap_dropdown_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./bootstrap-dropdown.css */ "Lrby");
+/* harmony import */ var _ngx_intl_tel_input_component_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ngx-intl-tel-input.component.css */ "Hndn");
+/* harmony import */ var google_libphonenumber__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! google-libphonenumber */ "ar4q");
+/* harmony import */ var google_libphonenumber__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(google_libphonenumber__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ "s7LF");
+/* harmony import */ var ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ngx-bootstrap/utils */ "hpHm");
+/* harmony import */ var _data_country_code__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./data/country-code */ "/5pC");
+/* harmony import */ var _enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./enums/search-country-field.enum */ "mSqq");
+/* harmony import */ var _ngx_intl_tel_input_validator__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ngx-intl-tel-input.validator */ "l9+I");
+/* harmony import */ var _enums_phone_number_format_enum__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./enums/phone-number-format.enum */ "Ju0R");
+var NgxIntlTelInputComponent_1;
+
+
+
+
+/* eslint-disable */
+/* tslint-disable */
+
+
+
+
+
+
+
+
+let NgxIntlTelInputComponent = NgxIntlTelInputComponent_1 = class NgxIntlTelInputComponent {
+    constructor(countryCodeData) {
+        this.countryCodeData = countryCodeData;
+        this.value = '';
+        this.preferredCountries = [];
+        this.enablePlaceholder = true;
+        this.numberFormat = _enums_phone_number_format_enum__WEBPACK_IMPORTED_MODULE_11__["PhoneNumberFormat"].International;
+        this.cssClass = 'form-control';
+        this.onlyCountries = [];
+        this.enableAutoCountrySelect = true;
+        this.searchCountryFlag = false;
+        this.searchCountryField = [_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_9__["SearchCountryField"].All];
+        this.searchCountryPlaceholder = 'Search Country';
+        this.maxLength = '';
+        this.selectFirstCountry = true;
+        this.phoneValidation = true;
+        this.inputId = 'phone';
+        this.separateDialCode = false;
+        this.defaultPhoneMask = '00 00 00 00';
+        this.countryChange = new _angular_core__WEBPACK_IMPORTED_MODULE_5__["EventEmitter"]();
+        this.selectedCountry = {
+            areaCodes: undefined,
+            dialCode: '',
+            htmlId: '',
+            flagClass: '',
+            iso2: '',
+            name: '',
+            placeHolder: '',
+            priority: 0,
+        };
+        this.phoneNumber = '';
+        this.allCountries = [];
+        this.preferredCountriesInDropDown = [];
+        // Has to be 'any' to prevent a need to install @types/google-libphonenumber by the package user...
+        this.phoneUtil = google_libphonenumber__WEBPACK_IMPORTED_MODULE_4__["PhoneNumberUtil"].getInstance();
+        this.disabled = false;
+        this.errors = ['Phone number is required.'];
+        this.countrySearchText = '';
+        this.phoneMask = this.defaultPhoneMask;
+        this.onTouched = () => { };
+        this.propagateChange = (_) => { };
+        // If this is not set, ngx-bootstrap will try to use the bs3 CSS (which is not what we've embedded) and will
+        // Add the wrong classes and such
+        Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_7__["setTheme"])('bs4');
+    }
+    ngOnInit() {
+        this.init();
+    }
+    ngOnChanges(changes) {
+        const selectedISO = changes['selectedCountryISO'];
+        if (this.allCountries &&
+            selectedISO &&
+            selectedISO.currentValue !== selectedISO.previousValue) {
+            this.updateSelectedCountry();
+        }
+        if (changes.preferredCountries) {
+            this.updatePreferredCountries();
+        }
+        this.checkSeparateDialCodeStyle();
+    }
+    /*
+        This is a wrapper method to avoid calling this.ngOnInit() in writeValue().
+        Ref: http://codelyzer.com/rules/no-life-cycle-call/
+    */
+    init() {
+        this.fetchCountryData();
+        if (this.preferredCountries.length) {
+            this.updatePreferredCountries();
+        }
+        if (this.onlyCountries.length) {
+            this.allCountries = this.allCountries.filter((c) => this.onlyCountries.includes(c.iso2));
+        }
+        if (this.selectFirstCountry) {
+            if (this.preferredCountriesInDropDown.length) {
+                this.setSelectedCountry(this.preferredCountriesInDropDown[0]);
+            }
+            else {
+                this.setSelectedCountry(this.allCountries[0]);
+            }
+        }
+        this.updateSelectedCountry();
+        this.checkSeparateDialCodeStyle();
+    }
+    setSelectedCountry(country) {
+        this.selectedCountry = country;
+        this.countryChange.emit(country);
+    }
+    /**
+     * Search country based on country name, iso2, dialCode or all of them.
+     */
+    searchCountry() {
+        if (!this.countrySearchText) {
+            this.countryList.nativeElement
+                .querySelector('.iti__country-list li')
+                .scrollIntoView({
+                behavior: 'smooth',
+                block: 'nearest',
+                inline: 'nearest',
+            });
+            return;
+        }
+        const countrySearchTextLower = this.countrySearchText.toLowerCase();
+        const country = this.allCountries.filter((c) => {
+            if (this.searchCountryField.indexOf(_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_9__["SearchCountryField"].All) > -1) {
+                // Search in all fields
+                if (c.iso2.toLowerCase().startsWith(countrySearchTextLower)) {
+                    return c;
+                }
+                if (c.name.toLowerCase().startsWith(countrySearchTextLower)) {
+                    return c;
+                }
+                if (c.dialCode.startsWith(this.countrySearchText)) {
+                    return c;
+                }
+            }
+            else {
+                // Or search by specific SearchCountryField(s)
+                if (this.searchCountryField.indexOf(_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_9__["SearchCountryField"].Iso2) > -1) {
+                    if (c.iso2.toLowerCase().startsWith(countrySearchTextLower)) {
+                        return c;
+                    }
+                }
+                if (this.searchCountryField.indexOf(_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_9__["SearchCountryField"].Name) > -1) {
+                    if (c.name.toLowerCase().startsWith(countrySearchTextLower)) {
+                        return c;
+                    }
+                }
+                if (this.searchCountryField.indexOf(_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_9__["SearchCountryField"].DialCode) > -1) {
+                    if (c.dialCode.startsWith(this.countrySearchText)) {
+                        return c;
+                    }
+                }
+            }
+        });
+        if (country.length > 0) {
+            const el = this.countryList.nativeElement.querySelector('#' + country[0].htmlId);
+            if (el) {
+                el.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'nearest',
+                    inline: 'nearest',
+                });
+            }
+        }
+        this.checkSeparateDialCodeStyle();
+    }
+    onPhoneNumberChange() {
+        let countryCode;
+        // Handle the case where the user sets the value programatically based on a persisted ChangeData obj.
+        if (this.phoneNumber && typeof this.phoneNumber === 'object') {
+            const numberObj = this.phoneNumber;
+            this.phoneNumber = numberObj.number;
+            countryCode = numberObj.countryCode;
+        }
+        this.value = this.phoneNumber;
+        countryCode = countryCode || this.selectedCountry.iso2;
+        const number = this.getParsedNumber(this.phoneNumber, countryCode);
+        // auto select country based on the extension (and areaCode if needed) (e.g select Canada if number starts with +1 416)
+        if (this.enableAutoCountrySelect) {
+            countryCode =
+                number && number.getCountryCode()
+                    ? this.getCountryIsoCode(number.getCountryCode(), number)
+                    : this.selectedCountry.iso2;
+            if (countryCode && countryCode !== this.selectedCountry.iso2) {
+                const newCountry = this.allCountries
+                    .sort((a, b) => {
+                    return a.priority - b.priority;
+                })
+                    .find((c) => c.iso2 === countryCode);
+                if (newCountry) {
+                    this.selectedCountry = newCountry;
+                }
+            }
+        }
+        countryCode = countryCode ? countryCode : this.selectedCountry.iso2;
+        this.checkSeparateDialCodeStyle();
+        if (!this.value) {
+            // Reason: avoid https://stackoverflow.com/a/54358133/1617590
+            // tslint:disable-next-line: no-null-keyword
+            this.propagateChange(null);
+        }
+        else {
+            const intlNo = number
+                ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_4__["PhoneNumberFormat"].INTERNATIONAL)
+                : '';
+            // parse phoneNumber if separate dial code is needed
+            if (this.separateDialCode && intlNo) {
+                this.value = this.removeDialCode(intlNo);
+            }
+            this.propagateChange({
+                number: this.value,
+                internationalNumber: intlNo,
+                nationalNumber: number
+                    ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_4__["PhoneNumberFormat"].NATIONAL)
+                    : '',
+                e164Number: number
+                    ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_4__["PhoneNumberFormat"].E164)
+                    : '',
+                countryCode: countryCode.toUpperCase(),
+                dialCode: '+' + this.selectedCountry.dialCode,
+            });
+        }
+    }
+    onCountrySelect(country, el) {
+        const countryPlaceholder = country.placeHolder.replace(/[0-9]/g, '0');
+        if (countryPlaceholder) {
+            this.phoneMask = countryPlaceholder;
+        }
+        this.setSelectedCountry(country);
+        this.checkSeparateDialCodeStyle();
+        if (this.phoneNumber && this.phoneNumber.length > 0) {
+            this.value = this.phoneNumber;
+            const number = this.getParsedNumber(this.phoneNumber, this.selectedCountry.iso2);
+            const intlNo = number
+                ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_4__["PhoneNumberFormat"].INTERNATIONAL)
+                : '';
+            // parse phoneNumber if separate dial code is needed
+            if (this.separateDialCode && intlNo) {
+                this.value = this.removeDialCode(intlNo);
+            }
+            this.propagateChange({
+                number: this.value,
+                internationalNumber: intlNo,
+                nationalNumber: number
+                    ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_4__["PhoneNumberFormat"].NATIONAL)
+                    : '',
+                e164Number: number
+                    ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_4__["PhoneNumberFormat"].E164)
+                    : '',
+                countryCode: this.selectedCountry.iso2.toUpperCase(),
+                dialCode: '+' + this.selectedCountry.dialCode,
+            });
+        }
+        else {
+            // Reason: avoid https://stackoverflow.com/a/54358133/1617590
+            // tslint:disable-next-line: no-null-keyword
+            this.propagateChange(null);
+        }
+        el.focus();
+    }
+    onInputKeyPress(event) {
+        const allowedChars = /[0-9\+\-\(\)\ ]/;
+        const allowedCtrlChars = /[axcv]/; // Allows copy-pasting
+        const allowedOtherKeys = [
+            'ArrowLeft',
+            'ArrowUp',
+            'ArrowRight',
+            'ArrowDown',
+            'Home',
+            'End',
+            'Insert',
+            'Delete',
+            'Backspace',
+        ];
+        if (!allowedChars.test(event.key) &&
+            !(event.ctrlKey && allowedCtrlChars.test(event.key)) &&
+            !allowedOtherKeys.includes(event.key)) {
+            event.preventDefault();
+        }
+    }
+    registerOnChange(fn) {
+        this.propagateChange = fn;
+    }
+    registerOnTouched(fn) {
+        this.onTouched = fn;
+    }
+    setDisabledState(isDisabled) {
+        this.disabled = isDisabled;
+    }
+    writeValue(obj) {
+        if (obj === undefined) {
+            this.init();
+        }
+        this.phoneNumber = obj;
+        setTimeout(() => {
+            this.onPhoneNumberChange();
+        }, 1);
+    }
+    resolvePlaceholder() {
+        let placeholder = '';
+        if (this.customPlaceholder) {
+            placeholder = this.customPlaceholder;
+        }
+        else if (this.selectedCountry.placeHolder) {
+            placeholder = this.selectedCountry.placeHolder;
+            if (this.separateDialCode) {
+                placeholder = this.removeDialCode(placeholder);
+            }
+        }
+        return placeholder;
+    }
+    /* --------------------------------- Helpers -------------------------------- */
+    /**
+     * Returns parse PhoneNumber object.
+     * @param phoneNumber string
+     * @param countryCode string
+     */
+    getParsedNumber(phoneNumber, countryCode) {
+        let number;
+        try {
+            number = this.phoneUtil.parse(phoneNumber, countryCode.toUpperCase());
+        }
+        catch (e) { }
+        return number;
+    }
+    /**
+     * Adjusts input alignment based on the dial code presentation style.
+     */
+    checkSeparateDialCodeStyle() {
+        if (this.separateDialCode && this.selectedCountry) {
+            const cntryCd = this.selectedCountry.dialCode;
+            this.separateDialCodeClass =
+                'separate-dial-code iti-sdc-' + (cntryCd.length + 1);
+        }
+        else {
+            this.separateDialCodeClass = '';
+        }
+    }
+    /**
+     * Cleans dialcode from phone number string.
+     * @param phoneNumber string
+     */
+    removeDialCode(phoneNumber) {
+        const number = this.getParsedNumber(phoneNumber, this.selectedCountry.iso2);
+        phoneNumber = this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_4__["PhoneNumberFormat"][this.numberFormat]);
+        if (phoneNumber.startsWith('+') && this.separateDialCode) {
+            phoneNumber = phoneNumber.substr(phoneNumber.indexOf(' ') + 1);
+        }
+        return phoneNumber;
+    }
+    /**
+     * Sifts through all countries and returns iso code of the primary country
+     * based on the number provided.
+     * @param countryCode country code in number format
+     * @param number PhoneNumber object
+     */
+    getCountryIsoCode(countryCode, number) {
+        // Will use this to match area code from the first numbers
+        const rawNumber = number['values_']['2'].toString();
+        // List of all countries with countryCode (can be more than one. e.x. US, CA, DO, PR all have +1 countryCode)
+        const countries = this.allCountries.filter((c) => c.dialCode === countryCode.toString());
+        // Main country is the country, which has no areaCodes specified in country-code.ts file.
+        const mainCountry = countries.find((c) => c.areaCodes === undefined);
+        // Secondary countries are all countries, which have areaCodes specified in country-code.ts file.
+        const secondaryCountries = countries.filter((c) => c.areaCodes !== undefined);
+        let matchedCountry = mainCountry ? mainCountry.iso2 : undefined;
+        /*
+            Iterate over each secondary country and check if nationalNumber starts with any of areaCodes available.
+            If no matches found, fallback to the main country.
+        */
+        secondaryCountries.forEach((country) => {
+            country.areaCodes.forEach((areaCode) => {
+                if (rawNumber.startsWith(areaCode)) {
+                    matchedCountry = country.iso2;
+                }
+            });
+        });
+        return matchedCountry;
+    }
+    /**
+     * Gets formatted example phone number from phoneUtil.
+     * @param countryCode string
+     */
+    getPhoneNumberPlaceHolder(countryCode) {
+        try {
+            return this.phoneUtil.format(this.phoneUtil.getExampleNumber(countryCode), google_libphonenumber__WEBPACK_IMPORTED_MODULE_4__["PhoneNumberFormat"][this.numberFormat]);
+        }
+        catch (e) {
+            return e;
+        }
+    }
+    /**
+     * Clearing the list to avoid duplicates (https://github.com/webcat12345/ngx-intl-tel-input/issues/248)
+     */
+    fetchCountryData() {
+        this.allCountries = [];
+        this.countryCodeData.allCountries.forEach((c) => {
+            const country = {
+                name: c[0].toString(),
+                iso2: c[1].toString(),
+                dialCode: c[2].toString(),
+                priority: +c[3] || 0,
+                areaCodes: c[4] || undefined,
+                htmlId: `iti-0__item-${c[1].toString()}`,
+                flagClass: `iti__${c[1].toString().toLocaleLowerCase()}`,
+                placeHolder: '',
+            };
+            if (this.enablePlaceholder) {
+                country.placeHolder = this.getPhoneNumberPlaceHolder(country.iso2.toUpperCase());
+            }
+            this.allCountries.push(country);
+        });
+    }
+    /**
+     * Populates preferredCountriesInDropDown with prefferred countries.
+     */
+    updatePreferredCountries() {
+        if (this.preferredCountries.length) {
+            this.preferredCountriesInDropDown = [];
+            this.preferredCountries.forEach((iso2) => {
+                const preferredCountry = this.allCountries.filter((c) => {
+                    return c.iso2 === iso2;
+                });
+                this.preferredCountriesInDropDown.push(preferredCountry[0]);
+            });
+        }
+    }
+    /**
+     * Updates selectedCountry.
+     */
+    updateSelectedCountry() {
+        if (this.selectedCountryISO) {
+            this.selectedCountry = this.allCountries.find((c) => {
+                return c.iso2.toLowerCase() === this.selectedCountryISO.toLowerCase();
+            });
+            if (this.selectedCountry) {
+                if (this.phoneNumber) {
+                    this.onPhoneNumberChange();
+                }
+                else {
+                    // Reason: avoid https://stackoverflow.com/a/54358133/1617590
+                    // tslint:disable-next-line: no-null-keyword
+                    this.propagateChange(null);
+                }
+            }
+        }
+    }
+};
+NgxIntlTelInputComponent.ctorParameters = () => [
+    { type: _data_country_code__WEBPACK_IMPORTED_MODULE_8__["CountryCode"] }
+];
+NgxIntlTelInputComponent.propDecorators = {
+    value: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    preferredCountries: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    enablePlaceholder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    customPlaceholder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    numberFormat: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    cssClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    onlyCountries: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    enableAutoCountrySelect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    searchCountryFlag: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    searchCountryField: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    searchCountryPlaceholder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    maxLength: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    selectFirstCountry: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    selectedCountryISO: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    phoneValidation: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    inputId: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    separateDialCode: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    defaultPhoneMask: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Input"] }],
+    countryChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["Output"] }],
+    countryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_5__["ViewChild"], args: ['countryList',] }]
+};
+NgxIntlTelInputComponent = NgxIntlTelInputComponent_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_5__["Component"])({
+        // tslint:disable-next-line: component-selector
+        selector: 'ngx-intl-tel-input',
+        template: _raw_loader_ngx_intl_tel_input_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
+        providers: [
+            _data_country_code__WEBPACK_IMPORTED_MODULE_8__["CountryCode"],
+            {
+                provide: _angular_forms__WEBPACK_IMPORTED_MODULE_6__["NG_VALUE_ACCESSOR"],
+                // tslint:disable-next-line:no-forward-ref
+                useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_5__["forwardRef"])(() => NgxIntlTelInputComponent_1),
+                multi: true,
+            },
+            {
+                provide: _angular_forms__WEBPACK_IMPORTED_MODULE_6__["NG_VALIDATORS"],
+                useValue: _ngx_intl_tel_input_validator__WEBPACK_IMPORTED_MODULE_10__["phoneNumberValidator"],
+                multi: true,
+            },
+        ],
+        styles: [_bootstrap_dropdown_css__WEBPACK_IMPORTED_MODULE_2__["default"], _ngx_intl_tel_input_component_css__WEBPACK_IMPORTED_MODULE_3__["default"]]
+    })
+], NgxIntlTelInputComponent);
+
+
+
+/***/ }),
+
+/***/ "A3xY":
+/*!***********************************!*\
+  !*** ./src/app/app.component.css ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "AytR":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/*! exports provided: environment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+const environment = {
+    production: false
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ "DVhr":
+/*!*********************************************************************************************!*\
+  !*** ./projects/ngx-intl-tel-input/src/lib/directives/native-element-injector.directive.ts ***!
+  \*********************************************************************************************/
+/*! exports provided: NativeElementInjectorDirective */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NativeElementInjectorDirective", function() { return NativeElementInjectorDirective; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "s7LF");
+
 
 
 /*
@@ -1390,7 +1943,7 @@ More about this approach and reasons for this:
 https://github.com/angular/angular/issues/18025
 https://stackoverflow.com/a/54075119/1617590
 */
-class NativeElementInjectorDirective {
+let NativeElementInjectorDirective = class NativeElementInjectorDirective {
     constructor(controlDir, host) {
         this.controlDir = controlDir;
         this.host = host;
@@ -1400,24 +1953,32 @@ class NativeElementInjectorDirective {
             this.controlDir.control['nativeElement'] = this.host.nativeElement;
         }
     }
-}
-NativeElementInjectorDirective.ɵfac = function NativeElementInjectorDirective_Factory(t) { return new (t || NativeElementInjectorDirective)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__.NgControl), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef)); };
-NativeElementInjectorDirective.ɵdir = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: NativeElementInjectorDirective, selectors: [["", "ngModel", ""], ["", "formControl", ""], ["", "formControlName", ""]] });
+};
+NativeElementInjectorDirective.ctorParameters = () => [
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControl"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] }
+];
+NativeElementInjectorDirective = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"])({
+        // tslint:disable-next-line: directive-selector
+        selector: '[ngModel], [formControl], [formControlName]',
+    })
+], NativeElementInjectorDirective);
+
 
 
 /***/ }),
 
-/***/ 5924:
+/***/ "HZF/":
 /*!***********************************************************************!*\
   !*** ./projects/ngx-intl-tel-input/src/lib/enums/country-iso.enum.ts ***!
   \***********************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/*! exports provided: CountryISO */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "CountryISO": function() { return /* binding */ CountryISO; }
-/* harmony export */ });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CountryISO", function() { return CountryISO; });
 var CountryISO;
 (function (CountryISO) {
     CountryISO["Afghanistan"] = "af";
@@ -1668,17 +2229,29 @@ var CountryISO;
 
 /***/ }),
 
-/***/ 5847:
-/*!*******************************************************************************!*\
-  !*** ./projects/ngx-intl-tel-input/src/lib/enums/phone-number-format.enum.ts ***!
-  \*******************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ "Hndn":
+/*!******************************************************************************!*\
+  !*** ./projects/ngx-intl-tel-input/src/lib/ngx-intl-tel-input.component.css ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "PhoneNumberFormat": function() { return /* binding */ PhoneNumberFormat; }
-/* harmony export */ });
+/* harmony default export */ __webpack_exports__["default"] = ("li.iti__country:hover {\n\tbackground-color: rgba(0, 0, 0, 0.05);\n}\n.iti__selected-flag.dropdown-toggle:after {\n\tcontent: none;\n}\n.iti__flag-container.disabled {\n\tcursor: default !important;\n}\n.iti.iti--allow-dropdown .flag-container.disabled:hover .iti__selected-flag {\n\tbackground: none;\n}\n.country-dropdown {\n\tborder: 1px solid #ccc;\n\twidth: -webkit-fit-content;\n\twidth: -moz-fit-content;\n\twidth: fit-content;\n\tpadding: 1px;\n\tborder-collapse: collapse;\n}\n.search-container {\n\tposition: relative;\n}\n.search-container input {\n\twidth: 100%;\n\tborder: none;\n\tborder-bottom: 1px solid #ccc;\n\tpadding-left: 10px;\n}\n.search-icon {\n\tposition: absolute;\n\tz-index: 2;\n\twidth: 25px;\n\tmargin: 1px 10px;\n}\n.iti__country-list {\n\tposition: relative;\n\tborder: none;\n}\n.iti input#country-search-box {\n\tpadding-left: 6px;\n}\n.iti .selected-dial-code {\n\tmargin-left: 6px;\n}\n.iti.separate-dial-code .iti__selected-flag,\n.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2 .iti__selected-flag,\n.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3 .iti__selected-flag,\n.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4 .iti__selected-flag {\n\twidth: 93px;\n}\n.iti.separate-dial-code input,\n.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2 input,\n.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3 input,\n.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4 input {\n\tpadding-left: 98px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5neC1pbnRsLXRlbC1pbnB1dC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0NBQ0MscUNBQXFDO0FBQ3RDO0FBQ0E7Q0FDQyxhQUFhO0FBQ2Q7QUFDQTtDQUNDLDBCQUEwQjtBQUMzQjtBQUNBO0NBQ0MsZ0JBQWdCO0FBQ2pCO0FBQ0E7Q0FDQyxzQkFBc0I7Q0FDdEIsMEJBQWtCO0NBQWxCLHVCQUFrQjtDQUFsQixrQkFBa0I7Q0FDbEIsWUFBWTtDQUNaLHlCQUF5QjtBQUMxQjtBQUNBO0NBQ0Msa0JBQWtCO0FBQ25CO0FBQ0E7Q0FDQyxXQUFXO0NBQ1gsWUFBWTtDQUNaLDZCQUE2QjtDQUM3QixrQkFBa0I7QUFDbkI7QUFDQTtDQUNDLGtCQUFrQjtDQUNsQixVQUFVO0NBQ1YsV0FBVztDQUNYLGdCQUFnQjtBQUNqQjtBQUNBO0NBQ0Msa0JBQWtCO0NBQ2xCLFlBQVk7QUFDYjtBQUVBO0NBQ0MsaUJBQWlCO0FBQ2xCO0FBRUE7Q0FDQyxnQkFBZ0I7QUFDakI7QUFFQTs7OztDQUlDLFdBQVc7QUFDWjtBQUVBOzs7O0NBSUMsa0JBQWtCO0FBQ25CIiwiZmlsZSI6Im5neC1pbnRsLXRlbC1pbnB1dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibGkuaXRpX19jb3VudHJ5OmhvdmVyIHtcblx0YmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwLjA1KTtcbn1cbi5pdGlfX3NlbGVjdGVkLWZsYWcuZHJvcGRvd24tdG9nZ2xlOmFmdGVyIHtcblx0Y29udGVudDogbm9uZTtcbn1cbi5pdGlfX2ZsYWctY29udGFpbmVyLmRpc2FibGVkIHtcblx0Y3Vyc29yOiBkZWZhdWx0ICFpbXBvcnRhbnQ7XG59XG4uaXRpLml0aS0tYWxsb3ctZHJvcGRvd24gLmZsYWctY29udGFpbmVyLmRpc2FibGVkOmhvdmVyIC5pdGlfX3NlbGVjdGVkLWZsYWcge1xuXHRiYWNrZ3JvdW5kOiBub25lO1xufVxuLmNvdW50cnktZHJvcGRvd24ge1xuXHRib3JkZXI6IDFweCBzb2xpZCAjY2NjO1xuXHR3aWR0aDogZml0LWNvbnRlbnQ7XG5cdHBhZGRpbmc6IDFweDtcblx0Ym9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcbn1cbi5zZWFyY2gtY29udGFpbmVyIHtcblx0cG9zaXRpb246IHJlbGF0aXZlO1xufVxuLnNlYXJjaC1jb250YWluZXIgaW5wdXQge1xuXHR3aWR0aDogMTAwJTtcblx0Ym9yZGVyOiBub25lO1xuXHRib3JkZXItYm90dG9tOiAxcHggc29saWQgI2NjYztcblx0cGFkZGluZy1sZWZ0OiAxMHB4O1xufVxuLnNlYXJjaC1pY29uIHtcblx0cG9zaXRpb246IGFic29sdXRlO1xuXHR6LWluZGV4OiAyO1xuXHR3aWR0aDogMjVweDtcblx0bWFyZ2luOiAxcHggMTBweDtcbn1cbi5pdGlfX2NvdW50cnktbGlzdCB7XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0Ym9yZGVyOiBub25lO1xufVxuXG4uaXRpIGlucHV0I2NvdW50cnktc2VhcmNoLWJveCB7XG5cdHBhZGRpbmctbGVmdDogNnB4O1xufVxuXG4uaXRpIC5zZWxlY3RlZC1kaWFsLWNvZGUge1xuXHRtYXJnaW4tbGVmdDogNnB4O1xufVxuXG4uaXRpLnNlcGFyYXRlLWRpYWwtY29kZSAuaXRpX19zZWxlY3RlZC1mbGFnLFxuLml0aS5zZXBhcmF0ZS1kaWFsLWNvZGUuaXRpLS1hbGxvdy1kcm9wZG93bi5pdGktc2RjLTIgLml0aV9fc2VsZWN0ZWQtZmxhZyxcbi5pdGkuc2VwYXJhdGUtZGlhbC1jb2RlLml0aS0tYWxsb3ctZHJvcGRvd24uaXRpLXNkYy0zIC5pdGlfX3NlbGVjdGVkLWZsYWcsXG4uaXRpLnNlcGFyYXRlLWRpYWwtY29kZS5pdGktLWFsbG93LWRyb3Bkb3duLml0aS1zZGMtNCAuaXRpX19zZWxlY3RlZC1mbGFnIHtcblx0d2lkdGg6IDkzcHg7XG59XG5cbi5pdGkuc2VwYXJhdGUtZGlhbC1jb2RlIGlucHV0LFxuLml0aS5zZXBhcmF0ZS1kaWFsLWNvZGUuaXRpLS1hbGxvdy1kcm9wZG93bi5pdGktc2RjLTIgaW5wdXQsXG4uaXRpLnNlcGFyYXRlLWRpYWwtY29kZS5pdGktLWFsbG93LWRyb3Bkb3duLml0aS1zZGMtMyBpbnB1dCxcbi5pdGkuc2VwYXJhdGUtZGlhbC1jb2RlLml0aS0tYWxsb3ctZHJvcGRvd24uaXRpLXNkYy00IGlucHV0IHtcblx0cGFkZGluZy1sZWZ0OiA5OHB4O1xufVxuIl19 */");
+
+/***/ }),
+
+/***/ "Ju0R":
+/*!*******************************************************************************!*\
+  !*** ./projects/ngx-intl-tel-input/src/lib/enums/phone-number-format.enum.ts ***!
+  \*******************************************************************************/
+/*! exports provided: PhoneNumberFormat */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PhoneNumberFormat", function() { return PhoneNumberFormat; });
 var PhoneNumberFormat;
 (function (PhoneNumberFormat) {
     PhoneNumberFormat["International"] = "INTERNATIONAL";
@@ -1688,33 +2261,12 @@ var PhoneNumberFormat;
 
 /***/ }),
 
-/***/ 6894:
-/*!********************************************************************************!*\
-  !*** ./projects/ngx-intl-tel-input/src/lib/enums/search-country-field.enum.ts ***!
-  \********************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "SearchCountryField": function() { return /* binding */ SearchCountryField; }
-/* harmony export */ });
-var SearchCountryField;
-(function (SearchCountryField) {
-    SearchCountryField["DialCode"] = "dialCode";
-    SearchCountryField["Iso2"] = "iso2";
-    SearchCountryField["Name"] = "name";
-    SearchCountryField["All"] = "all";
-})(SearchCountryField || (SearchCountryField = {}));
-
-
-/***/ }),
-
-/***/ 2725:
+/***/ "Lcfy":
 /*!***********************************************************************!*\
   !*** ./projects/ngx-intl-tel-input/src/lib/interfaces/change-data.ts ***!
   \***********************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -1723,31 +2275,52 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 3749:
-/*!*****************************************************************************!*\
-  !*** ./projects/ngx-intl-tel-input/src/lib/ngx-intl-tel-input.component.ts ***!
-  \*****************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ "Lrby":
+/*!********************************************************************!*\
+  !*** ./projects/ngx-intl-tel-input/src/lib/bootstrap-dropdown.css ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "NgxIntlTelInputComponent": function() { return /* binding */ NgxIntlTelInputComponent; }
-/* harmony export */ });
-/* harmony import */ var google_libphonenumber__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! google-libphonenumber */ 882);
-/* harmony import */ var google_libphonenumber__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(google_libphonenumber__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 1477);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/forms */ 9298);
-/* harmony import */ var ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ngx-bootstrap/utils */ 7291);
-/* harmony import */ var _data_country_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data/country-code */ 3065);
-/* harmony import */ var _enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./enums/search-country-field.enum */ 6894);
-/* harmony import */ var _ngx_intl_tel_input_validator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ngx-intl-tel-input.validator */ 7997);
-/* harmony import */ var _enums_phone_number_format_enum__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./enums/phone-number-format.enum */ 5847);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ 93);
-/* harmony import */ var ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ngx-bootstrap/dropdown */ 3676);
-/* harmony import */ var _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./directives/native-element-injector.directive */ 1993);
-/* eslint-disable */
-/* tslint-disable */
+/* harmony default export */ __webpack_exports__["default"] = (".dropup,\n.dropright,\n.dropdown,\n.dropleft {\n\tposition: relative;\n}\n\n.dropdown-toggle {\n\twhite-space: nowrap;\n}\n\n.dropdown-toggle::after {\n\tdisplay: inline-block;\n\tmargin-left: 0.255em;\n\tvertical-align: 0.255em;\n\tcontent: \"\";\n\tborder-top: 0.3em solid;\n\tborder-right: 0.3em solid transparent;\n\tborder-bottom: 0;\n\tborder-left: 0.3em solid transparent;\n}\n\n.dropdown-toggle:empty::after {\n\tmargin-left: 0;\n}\n\n.dropdown-menu {\n\tposition: absolute;\n\ttop: 100%;\n\tleft: 0;\n\tz-index: 1000;\n\tdisplay: none;\n\tfloat: left;\n\tmin-width: 10rem;\n\tpadding: 0.5rem 0;\n\tmargin: 0.125rem 0 0;\n\tfont-size: 1rem;\n\tcolor: #212529;\n\ttext-align: left;\n\tlist-style: none;\n\tbackground-color: #fff;\n\tbackground-clip: padding-box;\n\tborder: 1px solid rgba(0, 0, 0, 0.15);\n\tborder-radius: 0.25rem;\n}\n\n.dropdown-menu-left {\n\tright: auto;\n\tleft: 0;\n}\n\n.dropdown-menu-right {\n\tright: 0;\n\tleft: auto;\n}\n\n@media (min-width: 576px) {\n\t.dropdown-menu-sm-left {\n\t\tright: auto;\n\t\tleft: 0;\n\t}\n\n\t.dropdown-menu-sm-right {\n\t\tright: 0;\n\t\tleft: auto;\n\t}\n}\n\n@media (min-width: 768px) {\n\t.dropdown-menu-md-left {\n\t\tright: auto;\n\t\tleft: 0;\n\t}\n\n\t.dropdown-menu-md-right {\n\t\tright: 0;\n\t\tleft: auto;\n\t}\n}\n\n@media (min-width: 992px) {\n\t.dropdown-menu-lg-left {\n\t\tright: auto;\n\t\tleft: 0;\n\t}\n\n\t.dropdown-menu-lg-right {\n\t\tright: 0;\n\t\tleft: auto;\n\t}\n}\n\n@media (min-width: 1200px) {\n\t.dropdown-menu-xl-left {\n\t\tright: auto;\n\t\tleft: 0;\n\t}\n\n\t.dropdown-menu-xl-right {\n\t\tright: 0;\n\t\tleft: auto;\n\t}\n}\n\n.dropup .dropdown-menu {\n\ttop: auto;\n\tbottom: 100%;\n\tmargin-top: 0;\n\tmargin-bottom: 0.125rem;\n}\n\n.dropup .dropdown-toggle::after {\n\tdisplay: inline-block;\n\tmargin-left: 0.255em;\n\tvertical-align: 0.255em;\n\tcontent: \"\";\n\tborder-top: 0;\n\tborder-right: 0.3em solid transparent;\n\tborder-bottom: 0.3em solid;\n\tborder-left: 0.3em solid transparent;\n}\n\n.dropup .dropdown-toggle:empty::after {\n\tmargin-left: 0;\n}\n\n.dropright .dropdown-menu {\n\ttop: 0;\n\tright: auto;\n\tleft: 100%;\n\tmargin-top: 0;\n\tmargin-left: 0.125rem;\n}\n\n.dropright .dropdown-toggle::after {\n\tdisplay: inline-block;\n\tmargin-left: 0.255em;\n\tvertical-align: 0.255em;\n\tcontent: \"\";\n\tborder-top: 0.3em solid transparent;\n\tborder-right: 0;\n\tborder-bottom: 0.3em solid transparent;\n\tborder-left: 0.3em solid;\n}\n\n.dropright .dropdown-toggle:empty::after {\n\tmargin-left: 0;\n}\n\n.dropright .dropdown-toggle::after {\n\tvertical-align: 0;\n}\n\n.dropleft .dropdown-menu {\n\ttop: 0;\n\tright: 100%;\n\tleft: auto;\n\tmargin-top: 0;\n\tmargin-right: 0.125rem;\n}\n\n.dropleft .dropdown-toggle::after {\n\tdisplay: inline-block;\n\tmargin-left: 0.255em;\n\tvertical-align: 0.255em;\n\tcontent: \"\";\n}\n\n.dropleft .dropdown-toggle::after {\n\tdisplay: none;\n}\n\n.dropleft .dropdown-toggle::before {\n\tdisplay: inline-block;\n\tmargin-right: 0.255em;\n\tvertical-align: 0.255em;\n\tcontent: \"\";\n\tborder-top: 0.3em solid transparent;\n\tborder-right: 0.3em solid;\n\tborder-bottom: 0.3em solid transparent;\n}\n\n.dropleft .dropdown-toggle:empty::after {\n\tmargin-left: 0;\n}\n\n.dropleft .dropdown-toggle::before {\n\tvertical-align: 0;\n}\n\n.dropdown-menu[x-placement^=top], .dropdown-menu[x-placement^=right], .dropdown-menu[x-placement^=bottom], .dropdown-menu[x-placement^=left] {\n\tright: auto;\n\tbottom: auto;\n}\n\n.dropdown-divider {\n\theight: 0;\n\tmargin: 0.5rem 0;\n\toverflow: hidden;\n\tborder-top: 1px solid #e9ecef;\n}\n\n.dropdown-item {\n\tdisplay: block;\n\twidth: 100%;\n\tpadding: 0.25rem 1.5rem;\n\tclear: both;\n\tfont-weight: 400;\n\tcolor: #212529;\n\ttext-align: inherit;\n\twhite-space: nowrap;\n\tbackground-color: transparent;\n\tborder: 0;\n}\n\n.dropdown-item:hover, .dropdown-item:focus {\n\tcolor: #16181b;\n\ttext-decoration: none;\n\tbackground-color: #f8f9fa;\n}\n\n.dropdown-item.active, .dropdown-item:active {\n\tcolor: #fff;\n\ttext-decoration: none;\n\tbackground-color: #007bff;\n}\n\n.dropdown-item.disabled, .dropdown-item:disabled {\n\tcolor: #6c757d;\n\tpointer-events: none;\n\tbackground-color: transparent;\n}\n\n.dropdown-menu.show {\n\tdisplay: block;\n}\n\n.dropdown-header {\n\tdisplay: block;\n\tpadding: 0.5rem 1.5rem;\n\tmargin-bottom: 0;\n\tfont-size: 0.875rem;\n\tcolor: #6c757d;\n\twhite-space: nowrap;\n}\n\n.dropdown-item-text {\n\tdisplay: block;\n\tpadding: 0.25rem 1.5rem;\n\tcolor: #212529;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJvb3RzdHJhcC1kcm9wZG93bi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Q0FJQyxrQkFBa0I7QUFDbkI7O0FBRUE7Q0FDQyxtQkFBbUI7QUFDcEI7O0FBQ0E7Q0FDQyxxQkFBcUI7Q0FDckIsb0JBQW9CO0NBQ3BCLHVCQUF1QjtDQUN2QixXQUFXO0NBQ1gsdUJBQXVCO0NBQ3ZCLHFDQUFxQztDQUNyQyxnQkFBZ0I7Q0FDaEIsb0NBQW9DO0FBQ3JDOztBQUNBO0NBQ0MsY0FBYztBQUNmOztBQUVBO0NBQ0Msa0JBQWtCO0NBQ2xCLFNBQVM7Q0FDVCxPQUFPO0NBQ1AsYUFBYTtDQUNiLGFBQWE7Q0FDYixXQUFXO0NBQ1gsZ0JBQWdCO0NBQ2hCLGlCQUFpQjtDQUNqQixvQkFBb0I7Q0FDcEIsZUFBZTtDQUNmLGNBQWM7Q0FDZCxnQkFBZ0I7Q0FDaEIsZ0JBQWdCO0NBQ2hCLHNCQUFzQjtDQUN0Qiw0QkFBNEI7Q0FDNUIscUNBQXFDO0NBQ3JDLHNCQUFzQjtBQUN2Qjs7QUFFQTtDQUNDLFdBQVc7Q0FDWCxPQUFPO0FBQ1I7O0FBRUE7Q0FDQyxRQUFRO0NBQ1IsVUFBVTtBQUNYOztBQUVBO0NBQ0M7RUFDQyxXQUFXO0VBQ1gsT0FBTztDQUNSOztDQUVBO0VBQ0MsUUFBUTtFQUNSLFVBQVU7Q0FDWDtBQUNEOztBQUNBO0NBQ0M7RUFDQyxXQUFXO0VBQ1gsT0FBTztDQUNSOztDQUVBO0VBQ0MsUUFBUTtFQUNSLFVBQVU7Q0FDWDtBQUNEOztBQUNBO0NBQ0M7RUFDQyxXQUFXO0VBQ1gsT0FBTztDQUNSOztDQUVBO0VBQ0MsUUFBUTtFQUNSLFVBQVU7Q0FDWDtBQUNEOztBQUNBO0NBQ0M7RUFDQyxXQUFXO0VBQ1gsT0FBTztDQUNSOztDQUVBO0VBQ0MsUUFBUTtFQUNSLFVBQVU7Q0FDWDtBQUNEOztBQUNBO0NBQ0MsU0FBUztDQUNULFlBQVk7Q0FDWixhQUFhO0NBQ2IsdUJBQXVCO0FBQ3hCOztBQUNBO0NBQ0MscUJBQXFCO0NBQ3JCLG9CQUFvQjtDQUNwQix1QkFBdUI7Q0FDdkIsV0FBVztDQUNYLGFBQWE7Q0FDYixxQ0FBcUM7Q0FDckMsMEJBQTBCO0NBQzFCLG9DQUFvQztBQUNyQzs7QUFDQTtDQUNDLGNBQWM7QUFDZjs7QUFFQTtDQUNDLE1BQU07Q0FDTixXQUFXO0NBQ1gsVUFBVTtDQUNWLGFBQWE7Q0FDYixxQkFBcUI7QUFDdEI7O0FBQ0E7Q0FDQyxxQkFBcUI7Q0FDckIsb0JBQW9CO0NBQ3BCLHVCQUF1QjtDQUN2QixXQUFXO0NBQ1gsbUNBQW1DO0NBQ25DLGVBQWU7Q0FDZixzQ0FBc0M7Q0FDdEMsd0JBQXdCO0FBQ3pCOztBQUNBO0NBQ0MsY0FBYztBQUNmOztBQUNBO0NBQ0MsaUJBQWlCO0FBQ2xCOztBQUVBO0NBQ0MsTUFBTTtDQUNOLFdBQVc7Q0FDWCxVQUFVO0NBQ1YsYUFBYTtDQUNiLHNCQUFzQjtBQUN2Qjs7QUFDQTtDQUNDLHFCQUFxQjtDQUNyQixvQkFBb0I7Q0FDcEIsdUJBQXVCO0NBQ3ZCLFdBQVc7QUFDWjs7QUFDQTtDQUNDLGFBQWE7QUFDZDs7QUFDQTtDQUNDLHFCQUFxQjtDQUNyQixxQkFBcUI7Q0FDckIsdUJBQXVCO0NBQ3ZCLFdBQVc7Q0FDWCxtQ0FBbUM7Q0FDbkMseUJBQXlCO0NBQ3pCLHNDQUFzQztBQUN2Qzs7QUFDQTtDQUNDLGNBQWM7QUFDZjs7QUFDQTtDQUNDLGlCQUFpQjtBQUNsQjs7QUFFQTtDQUNDLFdBQVc7Q0FDWCxZQUFZO0FBQ2I7O0FBRUE7Q0FDQyxTQUFTO0NBQ1QsZ0JBQWdCO0NBQ2hCLGdCQUFnQjtDQUNoQiw2QkFBNkI7QUFDOUI7O0FBRUE7Q0FDQyxjQUFjO0NBQ2QsV0FBVztDQUNYLHVCQUF1QjtDQUN2QixXQUFXO0NBQ1gsZ0JBQWdCO0NBQ2hCLGNBQWM7Q0FDZCxtQkFBbUI7Q0FDbkIsbUJBQW1CO0NBQ25CLDZCQUE2QjtDQUM3QixTQUFTO0FBQ1Y7O0FBQ0E7Q0FDQyxjQUFjO0NBQ2QscUJBQXFCO0NBQ3JCLHlCQUF5QjtBQUMxQjs7QUFDQTtDQUNDLFdBQVc7Q0FDWCxxQkFBcUI7Q0FDckIseUJBQXlCO0FBQzFCOztBQUNBO0NBQ0MsY0FBYztDQUNkLG9CQUFvQjtDQUNwQiw2QkFBNkI7QUFDOUI7O0FBRUE7Q0FDQyxjQUFjO0FBQ2Y7O0FBRUE7Q0FDQyxjQUFjO0NBQ2Qsc0JBQXNCO0NBQ3RCLGdCQUFnQjtDQUNoQixtQkFBbUI7Q0FDbkIsY0FBYztDQUNkLG1CQUFtQjtBQUNwQjs7QUFFQTtDQUNDLGNBQWM7Q0FDZCx1QkFBdUI7Q0FDdkIsY0FBYztBQUNmIiwiZmlsZSI6ImJvb3RzdHJhcC1kcm9wZG93bi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZHJvcHVwLFxuLmRyb3ByaWdodCxcbi5kcm9wZG93bixcbi5kcm9wbGVmdCB7XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLmRyb3Bkb3duLXRvZ2dsZSB7XG5cdHdoaXRlLXNwYWNlOiBub3dyYXA7XG59XG4uZHJvcGRvd24tdG9nZ2xlOjphZnRlciB7XG5cdGRpc3BsYXk6IGlubGluZS1ibG9jaztcblx0bWFyZ2luLWxlZnQ6IDAuMjU1ZW07XG5cdHZlcnRpY2FsLWFsaWduOiAwLjI1NWVtO1xuXHRjb250ZW50OiBcIlwiO1xuXHRib3JkZXItdG9wOiAwLjNlbSBzb2xpZDtcblx0Ym9yZGVyLXJpZ2h0OiAwLjNlbSBzb2xpZCB0cmFuc3BhcmVudDtcblx0Ym9yZGVyLWJvdHRvbTogMDtcblx0Ym9yZGVyLWxlZnQ6IDAuM2VtIHNvbGlkIHRyYW5zcGFyZW50O1xufVxuLmRyb3Bkb3duLXRvZ2dsZTplbXB0eTo6YWZ0ZXIge1xuXHRtYXJnaW4tbGVmdDogMDtcbn1cblxuLmRyb3Bkb3duLW1lbnUge1xuXHRwb3NpdGlvbjogYWJzb2x1dGU7XG5cdHRvcDogMTAwJTtcblx0bGVmdDogMDtcblx0ei1pbmRleDogMTAwMDtcblx0ZGlzcGxheTogbm9uZTtcblx0ZmxvYXQ6IGxlZnQ7XG5cdG1pbi13aWR0aDogMTByZW07XG5cdHBhZGRpbmc6IDAuNXJlbSAwO1xuXHRtYXJnaW46IDAuMTI1cmVtIDAgMDtcblx0Zm9udC1zaXplOiAxcmVtO1xuXHRjb2xvcjogIzIxMjUyOTtcblx0dGV4dC1hbGlnbjogbGVmdDtcblx0bGlzdC1zdHlsZTogbm9uZTtcblx0YmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcblx0YmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDtcblx0Ym9yZGVyOiAxcHggc29saWQgcmdiYSgwLCAwLCAwLCAwLjE1KTtcblx0Ym9yZGVyLXJhZGl1czogMC4yNXJlbTtcbn1cblxuLmRyb3Bkb3duLW1lbnUtbGVmdCB7XG5cdHJpZ2h0OiBhdXRvO1xuXHRsZWZ0OiAwO1xufVxuXG4uZHJvcGRvd24tbWVudS1yaWdodCB7XG5cdHJpZ2h0OiAwO1xuXHRsZWZ0OiBhdXRvO1xufVxuXG5AbWVkaWEgKG1pbi13aWR0aDogNTc2cHgpIHtcblx0LmRyb3Bkb3duLW1lbnUtc20tbGVmdCB7XG5cdFx0cmlnaHQ6IGF1dG87XG5cdFx0bGVmdDogMDtcblx0fVxuXG5cdC5kcm9wZG93bi1tZW51LXNtLXJpZ2h0IHtcblx0XHRyaWdodDogMDtcblx0XHRsZWZ0OiBhdXRvO1xuXHR9XG59XG5AbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcblx0LmRyb3Bkb3duLW1lbnUtbWQtbGVmdCB7XG5cdFx0cmlnaHQ6IGF1dG87XG5cdFx0bGVmdDogMDtcblx0fVxuXG5cdC5kcm9wZG93bi1tZW51LW1kLXJpZ2h0IHtcblx0XHRyaWdodDogMDtcblx0XHRsZWZ0OiBhdXRvO1xuXHR9XG59XG5AbWVkaWEgKG1pbi13aWR0aDogOTkycHgpIHtcblx0LmRyb3Bkb3duLW1lbnUtbGctbGVmdCB7XG5cdFx0cmlnaHQ6IGF1dG87XG5cdFx0bGVmdDogMDtcblx0fVxuXG5cdC5kcm9wZG93bi1tZW51LWxnLXJpZ2h0IHtcblx0XHRyaWdodDogMDtcblx0XHRsZWZ0OiBhdXRvO1xuXHR9XG59XG5AbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7XG5cdC5kcm9wZG93bi1tZW51LXhsLWxlZnQge1xuXHRcdHJpZ2h0OiBhdXRvO1xuXHRcdGxlZnQ6IDA7XG5cdH1cblxuXHQuZHJvcGRvd24tbWVudS14bC1yaWdodCB7XG5cdFx0cmlnaHQ6IDA7XG5cdFx0bGVmdDogYXV0bztcblx0fVxufVxuLmRyb3B1cCAuZHJvcGRvd24tbWVudSB7XG5cdHRvcDogYXV0bztcblx0Ym90dG9tOiAxMDAlO1xuXHRtYXJnaW4tdG9wOiAwO1xuXHRtYXJnaW4tYm90dG9tOiAwLjEyNXJlbTtcbn1cbi5kcm9wdXAgLmRyb3Bkb3duLXRvZ2dsZTo6YWZ0ZXIge1xuXHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG5cdG1hcmdpbi1sZWZ0OiAwLjI1NWVtO1xuXHR2ZXJ0aWNhbC1hbGlnbjogMC4yNTVlbTtcblx0Y29udGVudDogXCJcIjtcblx0Ym9yZGVyLXRvcDogMDtcblx0Ym9yZGVyLXJpZ2h0OiAwLjNlbSBzb2xpZCB0cmFuc3BhcmVudDtcblx0Ym9yZGVyLWJvdHRvbTogMC4zZW0gc29saWQ7XG5cdGJvcmRlci1sZWZ0OiAwLjNlbSBzb2xpZCB0cmFuc3BhcmVudDtcbn1cbi5kcm9wdXAgLmRyb3Bkb3duLXRvZ2dsZTplbXB0eTo6YWZ0ZXIge1xuXHRtYXJnaW4tbGVmdDogMDtcbn1cblxuLmRyb3ByaWdodCAuZHJvcGRvd24tbWVudSB7XG5cdHRvcDogMDtcblx0cmlnaHQ6IGF1dG87XG5cdGxlZnQ6IDEwMCU7XG5cdG1hcmdpbi10b3A6IDA7XG5cdG1hcmdpbi1sZWZ0OiAwLjEyNXJlbTtcbn1cbi5kcm9wcmlnaHQgLmRyb3Bkb3duLXRvZ2dsZTo6YWZ0ZXIge1xuXHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG5cdG1hcmdpbi1sZWZ0OiAwLjI1NWVtO1xuXHR2ZXJ0aWNhbC1hbGlnbjogMC4yNTVlbTtcblx0Y29udGVudDogXCJcIjtcblx0Ym9yZGVyLXRvcDogMC4zZW0gc29saWQgdHJhbnNwYXJlbnQ7XG5cdGJvcmRlci1yaWdodDogMDtcblx0Ym9yZGVyLWJvdHRvbTogMC4zZW0gc29saWQgdHJhbnNwYXJlbnQ7XG5cdGJvcmRlci1sZWZ0OiAwLjNlbSBzb2xpZDtcbn1cbi5kcm9wcmlnaHQgLmRyb3Bkb3duLXRvZ2dsZTplbXB0eTo6YWZ0ZXIge1xuXHRtYXJnaW4tbGVmdDogMDtcbn1cbi5kcm9wcmlnaHQgLmRyb3Bkb3duLXRvZ2dsZTo6YWZ0ZXIge1xuXHR2ZXJ0aWNhbC1hbGlnbjogMDtcbn1cblxuLmRyb3BsZWZ0IC5kcm9wZG93bi1tZW51IHtcblx0dG9wOiAwO1xuXHRyaWdodDogMTAwJTtcblx0bGVmdDogYXV0bztcblx0bWFyZ2luLXRvcDogMDtcblx0bWFyZ2luLXJpZ2h0OiAwLjEyNXJlbTtcbn1cbi5kcm9wbGVmdCAuZHJvcGRvd24tdG9nZ2xlOjphZnRlciB7XG5cdGRpc3BsYXk6IGlubGluZS1ibG9jaztcblx0bWFyZ2luLWxlZnQ6IDAuMjU1ZW07XG5cdHZlcnRpY2FsLWFsaWduOiAwLjI1NWVtO1xuXHRjb250ZW50OiBcIlwiO1xufVxuLmRyb3BsZWZ0IC5kcm9wZG93bi10b2dnbGU6OmFmdGVyIHtcblx0ZGlzcGxheTogbm9uZTtcbn1cbi5kcm9wbGVmdCAuZHJvcGRvd24tdG9nZ2xlOjpiZWZvcmUge1xuXHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG5cdG1hcmdpbi1yaWdodDogMC4yNTVlbTtcblx0dmVydGljYWwtYWxpZ246IDAuMjU1ZW07XG5cdGNvbnRlbnQ6IFwiXCI7XG5cdGJvcmRlci10b3A6IDAuM2VtIHNvbGlkIHRyYW5zcGFyZW50O1xuXHRib3JkZXItcmlnaHQ6IDAuM2VtIHNvbGlkO1xuXHRib3JkZXItYm90dG9tOiAwLjNlbSBzb2xpZCB0cmFuc3BhcmVudDtcbn1cbi5kcm9wbGVmdCAuZHJvcGRvd24tdG9nZ2xlOmVtcHR5OjphZnRlciB7XG5cdG1hcmdpbi1sZWZ0OiAwO1xufVxuLmRyb3BsZWZ0IC5kcm9wZG93bi10b2dnbGU6OmJlZm9yZSB7XG5cdHZlcnRpY2FsLWFsaWduOiAwO1xufVxuXG4uZHJvcGRvd24tbWVudVt4LXBsYWNlbWVudF49dG9wXSwgLmRyb3Bkb3duLW1lbnVbeC1wbGFjZW1lbnRePXJpZ2h0XSwgLmRyb3Bkb3duLW1lbnVbeC1wbGFjZW1lbnRePWJvdHRvbV0sIC5kcm9wZG93bi1tZW51W3gtcGxhY2VtZW50Xj1sZWZ0XSB7XG5cdHJpZ2h0OiBhdXRvO1xuXHRib3R0b206IGF1dG87XG59XG5cbi5kcm9wZG93bi1kaXZpZGVyIHtcblx0aGVpZ2h0OiAwO1xuXHRtYXJnaW46IDAuNXJlbSAwO1xuXHRvdmVyZmxvdzogaGlkZGVuO1xuXHRib3JkZXItdG9wOiAxcHggc29saWQgI2U5ZWNlZjtcbn1cblxuLmRyb3Bkb3duLWl0ZW0ge1xuXHRkaXNwbGF5OiBibG9jaztcblx0d2lkdGg6IDEwMCU7XG5cdHBhZGRpbmc6IDAuMjVyZW0gMS41cmVtO1xuXHRjbGVhcjogYm90aDtcblx0Zm9udC13ZWlnaHQ6IDQwMDtcblx0Y29sb3I6ICMyMTI1Mjk7XG5cdHRleHQtYWxpZ246IGluaGVyaXQ7XG5cdHdoaXRlLXNwYWNlOiBub3dyYXA7XG5cdGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xuXHRib3JkZXI6IDA7XG59XG4uZHJvcGRvd24taXRlbTpob3ZlciwgLmRyb3Bkb3duLWl0ZW06Zm9jdXMge1xuXHRjb2xvcjogIzE2MTgxYjtcblx0dGV4dC1kZWNvcmF0aW9uOiBub25lO1xuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjZjhmOWZhO1xufVxuLmRyb3Bkb3duLWl0ZW0uYWN0aXZlLCAuZHJvcGRvd24taXRlbTphY3RpdmUge1xuXHRjb2xvcjogI2ZmZjtcblx0dGV4dC1kZWNvcmF0aW9uOiBub25lO1xuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjMDA3YmZmO1xufVxuLmRyb3Bkb3duLWl0ZW0uZGlzYWJsZWQsIC5kcm9wZG93bi1pdGVtOmRpc2FibGVkIHtcblx0Y29sb3I6ICM2Yzc1N2Q7XG5cdHBvaW50ZXItZXZlbnRzOiBub25lO1xuXHRiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcbn1cblxuLmRyb3Bkb3duLW1lbnUuc2hvdyB7XG5cdGRpc3BsYXk6IGJsb2NrO1xufVxuXG4uZHJvcGRvd24taGVhZGVyIHtcblx0ZGlzcGxheTogYmxvY2s7XG5cdHBhZGRpbmc6IDAuNXJlbSAxLjVyZW07XG5cdG1hcmdpbi1ib3R0b206IDA7XG5cdGZvbnQtc2l6ZTogMC44NzVyZW07XG5cdGNvbG9yOiAjNmM3NTdkO1xuXHR3aGl0ZS1zcGFjZTogbm93cmFwO1xufVxuXG4uZHJvcGRvd24taXRlbS10ZXh0IHtcblx0ZGlzcGxheTogYmxvY2s7XG5cdHBhZGRpbmc6IDAuMjVyZW0gMS41cmVtO1xuXHRjb2xvcjogIzIxMjUyOTtcbn1cbiJdfQ== */");
+
+/***/ }),
+
+/***/ "NPwR":
+/*!*******************************************************!*\
+  !*** ./projects/ngx-intl-tel-input/src/public_api.ts ***!
+  \*******************************************************/
+/*! exports provided: NgxIntlTelInputComponent, NativeElementInjectorDirective, dropdownModuleForRoot, NgxIntlTelInputModule, CountryISO, SearchCountryField, PhoneNumberFormat */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _lib_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/ngx-intl-tel-input.component */ "4I9l");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NgxIntlTelInputComponent", function() { return _lib_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_0__["NgxIntlTelInputComponent"]; });
+
+/* harmony import */ var _lib_directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lib/directives/native-element-injector.directive */ "DVhr");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NativeElementInjectorDirective", function() { return _lib_directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_1__["NativeElementInjectorDirective"]; });
+
+/* harmony import */ var _lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./lib/ngx-intl-tel-input.module */ "hwli");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "dropdownModuleForRoot", function() { return _lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_2__["dropdownModuleForRoot"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NgxIntlTelInputModule", function() { return _lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_2__["NgxIntlTelInputModule"]; });
+
+/* harmony import */ var _lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lib/enums/country-iso.enum */ "HZF/");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CountryISO", function() { return _lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_3__["CountryISO"]; });
+
+/* harmony import */ var _lib_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./lib/enums/search-country-field.enum */ "mSqq");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SearchCountryField", function() { return _lib_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_4__["SearchCountryField"]; });
+
+/* harmony import */ var _lib_enums_phone_number_format_enum__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./lib/enums/phone-number-format.enum */ "Ju0R");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhoneNumberFormat", function() { return _lib_enums_phone_number_format_enum__WEBPACK_IMPORTED_MODULE_5__["PhoneNumberFormat"]; });
+
+/* harmony import */ var _lib_interfaces_change_data__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lib/interfaces/change-data */ "Lcfy");
+/* empty/unused harmony star reexport *//*
+ * Public API Surface of ngx-intl-tel-input
+ */
 
 
 
@@ -1757,600 +2330,153 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+/***/ }),
+
+/***/ "Sy1n":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/*! exports provided: AppComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
+/* harmony import */ var _raw_loader_app_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./app.component.html */ "VzVu");
+/* harmony import */ var _app_component_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component.css */ "A3xY");
+/* harmony import */ var projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! projects/ngx-intl-tel-input/src/lib/enums/country-iso.enum */ "HZF/");
+/* harmony import */ var projects_ngx_intl_tel_input_src_lib_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! projects/ngx-intl-tel-input/src/lib/enums/search-country-field.enum */ "mSqq");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ "s7LF");
+/* harmony import */ var projects_ngx_intl_tel_input_src_public_api__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! projects/ngx-intl-tel-input/src/public_api */ "NPwR");
 
 
 
 
 
-const _c0 = ["countryList"];
-function NgxIntlTelInputComponent_div_4_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" +", ctx_r0.selectedCountry.dialCode, " ");
-} }
-function NgxIntlTelInputComponent_div_6_div_1_Template(rf, ctx) { if (rf & 1) {
-    const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](1, "input", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("ngModelChange", function NgxIntlTelInputComponent_div_6_div_1_Template_input_ngModelChange_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r9); const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2); return ctx_r8.countrySearchText = $event; })("keyup", function NgxIntlTelInputComponent_div_6_div_1_Template_input_keyup_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r9); const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2); return ctx_r10.searchCountry(); })("click", function NgxIntlTelInputComponent_div_6_div_1_Template_input_click_1_listener($event) { return $event.stopPropagation(); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngModel", ctx_r3.countrySearchText)("placeholder", ctx_r3.searchCountryPlaceholder);
-} }
-function NgxIntlTelInputComponent_div_6_li_4_Template(rf, ctx) { if (rf & 1) {
-    const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "li", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function NgxIntlTelInputComponent_div_6_li_4_Template_li_click_0_listener() { const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r14); const country_r12 = restoredCtx.$implicit; const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2); const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵreference"](8); return ctx_r13.onCountrySelect(country_r12, _r2); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](1, "div", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](2, "div", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](3, "span", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](5, "span", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const country_r12 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("id", country_r12.htmlId + "-preferred");
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", country_r12.flagClass);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](country_r12.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"]("+", country_r12.dialCode, "");
-} }
-function NgxIntlTelInputComponent_div_6_li_5_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "li", 23);
-} }
-function NgxIntlTelInputComponent_div_6_li_6_Template(rf, ctx) { if (rf & 1) {
-    const _r17 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "li", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function NgxIntlTelInputComponent_div_6_li_6_Template_li_click_0_listener() { const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r17); const country_r15 = restoredCtx.$implicit; const ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2); const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵreference"](8); return ctx_r16.onCountrySelect(country_r15, _r2); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](1, "div", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](2, "div", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](3, "span", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](5, "span", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const country_r15 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("id", country_r15.htmlId);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", country_r15.flagClass);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](country_r15.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"]("+", country_r15.dialCode, "");
-} }
-function NgxIntlTelInputComponent_div_6_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, NgxIntlTelInputComponent_div_6_div_1_Template, 2, 2, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](2, "ul", 12, 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](4, NgxIntlTelInputComponent_div_6_li_4_Template, 7, 4, "li", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](5, NgxIntlTelInputComponent_div_6_li_5_Template, 1, 0, "li", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](6, NgxIntlTelInputComponent_div_6_li_6_Template, 7, 4, "li", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx_r1.searchCountryFlag && ctx_r1.searchCountryField);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", ctx_r1.preferredCountriesInDropDown);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx_r1.preferredCountriesInDropDown == null ? null : ctx_r1.preferredCountriesInDropDown.length);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", ctx_r1.allCountries);
-} }
-const _c1 = function (a0) { return { disabled: a0 }; };
-class NgxIntlTelInputComponent {
-    constructor(countryCodeData) {
-        this.countryCodeData = countryCodeData;
-        this.value = '';
-        this.preferredCountries = [];
-        this.enablePlaceholder = true;
-        this.numberFormat = _enums_phone_number_format_enum__WEBPACK_IMPORTED_MODULE_3__.PhoneNumberFormat.International;
-        this.cssClass = 'form-control';
-        this.onlyCountries = [];
-        this.enableAutoCountrySelect = true;
-        this.searchCountryFlag = false;
-        this.searchCountryField = [_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_1__.SearchCountryField.All];
-        this.searchCountryPlaceholder = 'Search Country';
-        this.maxLength = '';
-        this.selectFirstCountry = true;
-        this.phoneValidation = true;
-        this.inputId = 'phone';
+
+
+
+let AppComponent = class AppComponent {
+    constructor() {
         this.separateDialCode = false;
-        this.defaultPhoneMask = '00 00 00 00';
-        this.countryChange = new _angular_core__WEBPACK_IMPORTED_MODULE_5__.EventEmitter();
-        this.selectedCountry = {
-            areaCodes: undefined,
-            dialCode: '',
-            htmlId: '',
-            flagClass: '',
-            iso2: '',
-            name: '',
-            placeHolder: '',
-            priority: 0,
-        };
-        this.phoneNumber = '';
-        this.allCountries = [];
-        this.preferredCountriesInDropDown = [];
-        // Has to be 'any' to prevent a need to install @types/google-libphonenumber by the package user...
-        this.phoneUtil = google_libphonenumber__WEBPACK_IMPORTED_MODULE_6__.PhoneNumberUtil.getInstance();
-        this.disabled = false;
-        this.errors = ['Phone number is required.'];
-        this.countrySearchText = '';
-        this.phoneMask = this.defaultPhoneMask;
-        this.onTouched = () => { };
-        this.propagateChange = (_) => { };
-        // If this is not set, ngx-bootstrap will try to use the bs3 CSS (which is not what we've embedded) and will
-        // Add the wrong classes and such
-        (0,ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_7__.setTheme)('bs4');
-    }
-    ngOnInit() {
-        this.init();
-    }
-    ngOnChanges(changes) {
-        const selectedISO = changes['selectedCountryISO'];
-        if (this.allCountries &&
-            selectedISO &&
-            selectedISO.currentValue !== selectedISO.previousValue) {
-            this.updateSelectedCountry();
-        }
-        if (changes.preferredCountries) {
-            this.updatePreferredCountries();
-        }
-        this.checkSeparateDialCodeStyle();
-    }
-    /*
-        This is a wrapper method to avoid calling this.ngOnInit() in writeValue().
-        Ref: http://codelyzer.com/rules/no-life-cycle-call/
-    */
-    init() {
-        this.fetchCountryData();
-        if (this.preferredCountries.length) {
-            this.updatePreferredCountries();
-        }
-        if (this.onlyCountries.length) {
-            this.allCountries = this.allCountries.filter((c) => this.onlyCountries.includes(c.iso2));
-        }
-        if (this.selectFirstCountry) {
-            if (this.preferredCountriesInDropDown.length) {
-                this.setSelectedCountry(this.preferredCountriesInDropDown[0]);
-            }
-            else {
-                this.setSelectedCountry(this.allCountries[0]);
-            }
-        }
-        this.updateSelectedCountry();
-        this.checkSeparateDialCodeStyle();
-    }
-    setSelectedCountry(country) {
-        this.selectedCountry = country;
-        this.countryChange.emit(country);
-    }
-    /**
-     * Search country based on country name, iso2, dialCode or all of them.
-     */
-    searchCountry() {
-        if (!this.countrySearchText) {
-            this.countryList.nativeElement
-                .querySelector('.iti__country-list li')
-                .scrollIntoView({
-                behavior: 'smooth',
-                block: 'nearest',
-                inline: 'nearest',
-            });
-            return;
-        }
-        const countrySearchTextLower = this.countrySearchText.toLowerCase();
-        const country = this.allCountries.filter((c) => {
-            if (this.searchCountryField.indexOf(_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_1__.SearchCountryField.All) > -1) {
-                // Search in all fields
-                if (c.iso2.toLowerCase().startsWith(countrySearchTextLower)) {
-                    return c;
-                }
-                if (c.name.toLowerCase().startsWith(countrySearchTextLower)) {
-                    return c;
-                }
-                if (c.dialCode.startsWith(this.countrySearchText)) {
-                    return c;
-                }
-            }
-            else {
-                // Or search by specific SearchCountryField(s)
-                if (this.searchCountryField.indexOf(_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_1__.SearchCountryField.Iso2) > -1) {
-                    if (c.iso2.toLowerCase().startsWith(countrySearchTextLower)) {
-                        return c;
-                    }
-                }
-                if (this.searchCountryField.indexOf(_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_1__.SearchCountryField.Name) > -1) {
-                    if (c.name.toLowerCase().startsWith(countrySearchTextLower)) {
-                        return c;
-                    }
-                }
-                if (this.searchCountryField.indexOf(_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_1__.SearchCountryField.DialCode) > -1) {
-                    if (c.dialCode.startsWith(this.countrySearchText)) {
-                        return c;
-                    }
-                }
-            }
-        });
-        if (country.length > 0) {
-            const el = this.countryList.nativeElement.querySelector('#' + country[0].htmlId);
-            if (el) {
-                el.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'nearest',
-                    inline: 'nearest',
-                });
-            }
-        }
-        this.checkSeparateDialCodeStyle();
-    }
-    onPhoneNumberChange() {
-        let countryCode;
-        // Handle the case where the user sets the value programatically based on a persisted ChangeData obj.
-        if (this.phoneNumber && typeof this.phoneNumber === 'object') {
-            const numberObj = this.phoneNumber;
-            this.phoneNumber = numberObj.number;
-            countryCode = numberObj.countryCode;
-        }
-        this.value = this.phoneNumber;
-        countryCode = countryCode || this.selectedCountry.iso2;
-        const number = this.getParsedNumber(this.phoneNumber, countryCode);
-        // auto select country based on the extension (and areaCode if needed) (e.g select Canada if number starts with +1 416)
-        if (this.enableAutoCountrySelect) {
-            countryCode =
-                number && number.getCountryCode()
-                    ? this.getCountryIsoCode(number.getCountryCode(), number)
-                    : this.selectedCountry.iso2;
-            if (countryCode && countryCode !== this.selectedCountry.iso2) {
-                const newCountry = this.allCountries
-                    .sort((a, b) => {
-                    return a.priority - b.priority;
-                })
-                    .find((c) => c.iso2 === countryCode);
-                if (newCountry) {
-                    this.selectedCountry = newCountry;
-                }
-            }
-        }
-        countryCode = countryCode ? countryCode : this.selectedCountry.iso2;
-        this.checkSeparateDialCodeStyle();
-        if (!this.value) {
-            // Reason: avoid https://stackoverflow.com/a/54358133/1617590
-            // tslint:disable-next-line: no-null-keyword
-            this.propagateChange(null);
-        }
-        else {
-            const intlNo = number
-                ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_6__.PhoneNumberFormat.INTERNATIONAL)
-                : '';
-            // parse phoneNumber if separate dial code is needed
-            if (this.separateDialCode && intlNo) {
-                this.value = this.removeDialCode(intlNo);
-            }
-            this.propagateChange({
-                number: this.value,
-                internationalNumber: intlNo,
-                nationalNumber: number
-                    ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_6__.PhoneNumberFormat.NATIONAL)
-                    : '',
-                e164Number: number
-                    ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_6__.PhoneNumberFormat.E164)
-                    : '',
-                countryCode: countryCode.toUpperCase(),
-                dialCode: '+' + this.selectedCountry.dialCode,
-            });
-        }
-    }
-    onCountrySelect(country, el) {
-        const countryPlaceholder = country.placeHolder.replace(/[0-9]/g, '0');
-        if (countryPlaceholder) {
-            this.phoneMask = countryPlaceholder;
-        }
-        this.setSelectedCountry(country);
-        this.checkSeparateDialCodeStyle();
-        if (this.phoneNumber && this.phoneNumber.length > 0) {
-            this.value = this.phoneNumber;
-            const number = this.getParsedNumber(this.phoneNumber, this.selectedCountry.iso2);
-            const intlNo = number
-                ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_6__.PhoneNumberFormat.INTERNATIONAL)
-                : '';
-            // parse phoneNumber if separate dial code is needed
-            if (this.separateDialCode && intlNo) {
-                this.value = this.removeDialCode(intlNo);
-            }
-            this.propagateChange({
-                number: this.value,
-                internationalNumber: intlNo,
-                nationalNumber: number
-                    ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_6__.PhoneNumberFormat.NATIONAL)
-                    : '',
-                e164Number: number
-                    ? this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_6__.PhoneNumberFormat.E164)
-                    : '',
-                countryCode: this.selectedCountry.iso2.toUpperCase(),
-                dialCode: '+' + this.selectedCountry.dialCode,
-            });
-        }
-        else {
-            // Reason: avoid https://stackoverflow.com/a/54358133/1617590
-            // tslint:disable-next-line: no-null-keyword
-            this.propagateChange(null);
-        }
-        el.focus();
-    }
-    onInputKeyPress(event) {
-        const allowedChars = /[0-9\+\-\(\)\ ]/;
-        const allowedCtrlChars = /[axcv]/; // Allows copy-pasting
-        const allowedOtherKeys = [
-            'ArrowLeft',
-            'ArrowUp',
-            'ArrowRight',
-            'ArrowDown',
-            'Home',
-            'End',
-            'Insert',
-            'Delete',
-            'Backspace',
+        this.SearchCountryField = projects_ngx_intl_tel_input_src_lib_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_4__["SearchCountryField"];
+        this.CountryISO = projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_3__["CountryISO"];
+        this.PhoneNumberFormat = projects_ngx_intl_tel_input_src_public_api__WEBPACK_IMPORTED_MODULE_7__["PhoneNumberFormat"];
+        this.preferredCountries = [
+            projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_3__["CountryISO"].UnitedStates,
+            projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_3__["CountryISO"].UnitedKingdom,
         ];
-        if (!allowedChars.test(event.key) &&
-            !(event.ctrlKey && allowedCtrlChars.test(event.key)) &&
-            !allowedOtherKeys.includes(event.key)) {
-            event.preventDefault();
-        }
-    }
-    registerOnChange(fn) {
-        this.propagateChange = fn;
-    }
-    registerOnTouched(fn) {
-        this.onTouched = fn;
-    }
-    setDisabledState(isDisabled) {
-        this.disabled = isDisabled;
-    }
-    writeValue(obj) {
-        if (obj === undefined) {
-            this.init();
-        }
-        this.phoneNumber = obj;
-        setTimeout(() => {
-            this.onPhoneNumberChange();
-        }, 1);
-    }
-    resolvePlaceholder() {
-        let placeholder = '';
-        if (this.customPlaceholder) {
-            placeholder = this.customPlaceholder;
-        }
-        else if (this.selectedCountry.placeHolder) {
-            placeholder = this.selectedCountry.placeHolder;
-            if (this.separateDialCode) {
-                placeholder = this.removeDialCode(placeholder);
-            }
-        }
-        return placeholder;
-    }
-    /* --------------------------------- Helpers -------------------------------- */
-    /**
-     * Returns parse PhoneNumber object.
-     * @param phoneNumber string
-     * @param countryCode string
-     */
-    getParsedNumber(phoneNumber, countryCode) {
-        let number;
-        try {
-            number = this.phoneUtil.parse(phoneNumber, countryCode.toUpperCase());
-        }
-        catch (e) { }
-        return number;
-    }
-    /**
-     * Adjusts input alignment based on the dial code presentation style.
-     */
-    checkSeparateDialCodeStyle() {
-        if (this.separateDialCode && this.selectedCountry) {
-            const cntryCd = this.selectedCountry.dialCode;
-            this.separateDialCodeClass =
-                'separate-dial-code iti-sdc-' + (cntryCd.length + 1);
-        }
-        else {
-            this.separateDialCodeClass = '';
-        }
-    }
-    /**
-     * Cleans dialcode from phone number string.
-     * @param phoneNumber string
-     */
-    removeDialCode(phoneNumber) {
-        const number = this.getParsedNumber(phoneNumber, this.selectedCountry.iso2);
-        phoneNumber = this.phoneUtil.format(number, google_libphonenumber__WEBPACK_IMPORTED_MODULE_6__.PhoneNumberFormat[this.numberFormat]);
-        if (phoneNumber.startsWith('+') && this.separateDialCode) {
-            phoneNumber = phoneNumber.substr(phoneNumber.indexOf(' ') + 1);
-        }
-        return phoneNumber;
-    }
-    /**
-     * Sifts through all countries and returns iso code of the primary country
-     * based on the number provided.
-     * @param countryCode country code in number format
-     * @param number PhoneNumber object
-     */
-    getCountryIsoCode(countryCode, number) {
-        // Will use this to match area code from the first numbers
-        const rawNumber = number['values_']['2'].toString();
-        // List of all countries with countryCode (can be more than one. e.x. US, CA, DO, PR all have +1 countryCode)
-        const countries = this.allCountries.filter((c) => c.dialCode === countryCode.toString());
-        // Main country is the country, which has no areaCodes specified in country-code.ts file.
-        const mainCountry = countries.find((c) => c.areaCodes === undefined);
-        // Secondary countries are all countries, which have areaCodes specified in country-code.ts file.
-        const secondaryCountries = countries.filter((c) => c.areaCodes !== undefined);
-        let matchedCountry = mainCountry ? mainCountry.iso2 : undefined;
-        /*
-            Iterate over each secondary country and check if nationalNumber starts with any of areaCodes available.
-            If no matches found, fallback to the main country.
-        */
-        secondaryCountries.forEach((country) => {
-            country.areaCodes.forEach((areaCode) => {
-                if (rawNumber.startsWith(areaCode)) {
-                    matchedCountry = country.iso2;
-                }
-            });
-        });
-        return matchedCountry;
-    }
-    /**
-     * Gets formatted example phone number from phoneUtil.
-     * @param countryCode string
-     */
-    getPhoneNumberPlaceHolder(countryCode) {
-        try {
-            return this.phoneUtil.format(this.phoneUtil.getExampleNumber(countryCode), google_libphonenumber__WEBPACK_IMPORTED_MODULE_6__.PhoneNumberFormat[this.numberFormat]);
-        }
-        catch (e) {
-            return e;
-        }
-    }
-    /**
-     * Clearing the list to avoid duplicates (https://github.com/webcat12345/ngx-intl-tel-input/issues/248)
-     */
-    fetchCountryData() {
-        this.allCountries = [];
-        this.countryCodeData.allCountries.forEach((c) => {
-            const country = {
-                name: c[0].toString(),
-                iso2: c[1].toString(),
-                dialCode: c[2].toString(),
-                priority: +c[3] || 0,
-                areaCodes: c[4] || undefined,
-                htmlId: `iti-0__item-${c[1].toString()}`,
-                flagClass: `iti__${c[1].toString().toLocaleLowerCase()}`,
-                placeHolder: '',
-            };
-            if (this.enablePlaceholder) {
-                country.placeHolder = this.getPhoneNumberPlaceHolder(country.iso2.toUpperCase());
-            }
-            this.allCountries.push(country);
+        this.phoneForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormGroup"]({
+            phone: new _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormControl"](undefined, [_angular_forms__WEBPACK_IMPORTED_MODULE_6__["Validators"].required]),
         });
     }
-    /**
-     * Populates preferredCountriesInDropDown with prefferred countries.
-     */
-    updatePreferredCountries() {
-        if (this.preferredCountries.length) {
-            this.preferredCountriesInDropDown = [];
-            this.preferredCountries.forEach((iso2) => {
-                const preferredCountry = this.allCountries.filter((c) => {
-                    return c.iso2 === iso2;
-                });
-                this.preferredCountriesInDropDown.push(preferredCountry[0]);
-            });
-        }
+    changePreferredCountries() {
+        this.preferredCountries = [projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_3__["CountryISO"].India, projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_3__["CountryISO"].Canada];
     }
-    /**
-     * Updates selectedCountry.
-     */
-    updateSelectedCountry() {
-        if (this.selectedCountryISO) {
-            this.selectedCountry = this.allCountries.find((c) => {
-                return c.iso2.toLowerCase() === this.selectedCountryISO.toLowerCase();
-            });
-            if (this.selectedCountry) {
-                if (this.phoneNumber) {
-                    this.onPhoneNumberChange();
-                }
-                else {
-                    // Reason: avoid https://stackoverflow.com/a/54358133/1617590
-                    // tslint:disable-next-line: no-null-keyword
-                    this.propagateChange(null);
-                }
-            }
-        }
-    }
-}
-NgxIntlTelInputComponent.ɵfac = function NgxIntlTelInputComponent_Factory(t) { return new (t || NgxIntlTelInputComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_data_country_code__WEBPACK_IMPORTED_MODULE_0__.CountryCode)); };
-NgxIntlTelInputComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({ type: NgxIntlTelInputComponent, selectors: [["ngx-intl-tel-input"]], viewQuery: function NgxIntlTelInputComponent_Query(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵviewQuery"](_c0, 5);
-    } if (rf & 2) {
-        let _t;
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵloadQuery"]()) && (ctx.countryList = _t.first);
-    } }, inputs: { value: "value", preferredCountries: "preferredCountries", enablePlaceholder: "enablePlaceholder", customPlaceholder: "customPlaceholder", numberFormat: "numberFormat", cssClass: "cssClass", onlyCountries: "onlyCountries", enableAutoCountrySelect: "enableAutoCountrySelect", searchCountryFlag: "searchCountryFlag", searchCountryField: "searchCountryField", searchCountryPlaceholder: "searchCountryPlaceholder", maxLength: "maxLength", selectFirstCountry: "selectFirstCountry", selectedCountryISO: "selectedCountryISO", phoneValidation: "phoneValidation", inputId: "inputId", separateDialCode: "separateDialCode", defaultPhoneMask: "defaultPhoneMask" }, outputs: { countryChange: "countryChange" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵProvidersFeature"]([
-            _data_country_code__WEBPACK_IMPORTED_MODULE_0__.CountryCode,
-            {
-                provide: _angular_forms__WEBPACK_IMPORTED_MODULE_8__.NG_VALUE_ACCESSOR,
-                // tslint:disable-next-line:no-forward-ref
-                useExisting: (0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.forwardRef)(() => NgxIntlTelInputComponent),
-                multi: true,
-            },
-            {
-                provide: _angular_forms__WEBPACK_IMPORTED_MODULE_8__.NG_VALIDATORS,
-                useValue: _ngx_intl_tel_input_validator__WEBPACK_IMPORTED_MODULE_2__.phoneNumberValidator,
-                multi: true,
-            },
-        ]), _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵNgOnChangesFeature"]], decls: 9, vars: 14, consts: [[1, "iti", "iti--allow-dropdown", 3, "ngClass"], ["dropdown", "", 1, "iti__flag-container", 3, "ngClass", "isDisabled"], ["dropdownToggle", "", 1, "iti__selected-flag", "dropdown-toggle"], [1, "iti__flag", 3, "ngClass"], ["class", "selected-dial-code", 4, "ngIf"], [1, "iti__arrow"], ["class", "dropdown-menu country-dropdown", 4, "dropdownMenu"], ["type", "tel", "autocomplete", "off", 3, "id", "ngClass", "ngModel", "disabled", "placeholder", "blur", "keypress", "ngModelChange"], ["focusable", ""], [1, "selected-dial-code"], [1, "dropdown-menu", "country-dropdown"], ["class", "search-container", 4, "ngIf"], [1, "iti__country-list"], ["countryList", ""], ["class", "iti__country iti__preferred", 3, "id", "click", 4, "ngFor", "ngForOf"], ["class", "iti__divider", 4, "ngIf"], ["class", "iti__country iti__standard", 3, "id", "click", 4, "ngFor", "ngForOf"], [1, "search-container"], ["id", "country-search-box", "autofocus", "", 3, "ngModel", "placeholder", "ngModelChange", "keyup", "click"], [1, "iti__country", "iti__preferred", 3, "id", "click"], [1, "iti__flag-box"], [1, "iti__country-name"], [1, "iti__dial-code"], [1, "iti__divider"], [1, "iti__country", "iti__standard", 3, "id", "click"]], template: function NgxIntlTelInputComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](2, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](3, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](4, NgxIntlTelInputComponent_div_4_Template, 2, 1, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](5, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](6, NgxIntlTelInputComponent_div_6_Template, 7, 4, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "input", 7, 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("blur", function NgxIntlTelInputComponent_Template_input_blur_7_listener() { return ctx.onTouched(); })("keypress", function NgxIntlTelInputComponent_Template_input_keypress_7_listener($event) { return ctx.onInputKeyPress($event); })("ngModelChange", function NgxIntlTelInputComponent_Template_input_ngModelChange_7_listener($event) { return ctx.phoneNumber = $event; })("ngModelChange", function NgxIntlTelInputComponent_Template_input_ngModelChange_7_listener() { return ctx.onPhoneNumberChange(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", ctx.separateDialCodeClass);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction1"](12, _c1, ctx.disabled))("isDisabled", ctx.disabled);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", ctx.selectedCountry == null ? null : ctx.selectedCountry.flagClass);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.separateDialCode);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("id", ctx.inputId)("ngClass", ctx.cssClass)("ngModel", ctx.phoneNumber)("disabled", ctx.disabled)("placeholder", ctx.resolvePlaceholder());
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵattribute"]("maxLength", ctx.maxLength)("validation", ctx.phoneValidation);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.NgClass, ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_10__.BsDropdownDirective, ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_10__.BsDropdownToggleDirective, _angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_10__.BsDropdownMenuDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_8__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_8__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_8__.NgModel, _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_4__.NativeElementInjectorDirective, _angular_common__WEBPACK_IMPORTED_MODULE_9__.NgForOf], styles: [".dropup[_ngcontent-%COMP%], .dropright[_ngcontent-%COMP%], .dropdown[_ngcontent-%COMP%], .dropleft[_ngcontent-%COMP%] {\n\tposition: relative;\n}\n\n.dropdown-toggle[_ngcontent-%COMP%] {\n\twhite-space: nowrap;\n}\n\n.dropdown-toggle[_ngcontent-%COMP%]::after {\n\tdisplay: inline-block;\n\tmargin-left: 0.255em;\n\tvertical-align: 0.255em;\n\tcontent: \"\";\n\tborder-top: 0.3em solid;\n\tborder-right: 0.3em solid transparent;\n\tborder-bottom: 0;\n\tborder-left: 0.3em solid transparent;\n}\n\n.dropdown-toggle[_ngcontent-%COMP%]:empty::after {\n\tmargin-left: 0;\n}\n\n.dropdown-menu[_ngcontent-%COMP%] {\n\tposition: absolute;\n\ttop: 100%;\n\tleft: 0;\n\tz-index: 1000;\n\tdisplay: none;\n\tfloat: left;\n\tmin-width: 10rem;\n\tpadding: 0.5rem 0;\n\tmargin: 0.125rem 0 0;\n\tfont-size: 1rem;\n\tcolor: #212529;\n\ttext-align: left;\n\tlist-style: none;\n\tbackground-color: #fff;\n\tbackground-clip: padding-box;\n\tborder: 1px solid rgba(0, 0, 0, 0.15);\n\tborder-radius: 0.25rem;\n}\n\n.dropdown-menu-left[_ngcontent-%COMP%] {\n\tright: auto;\n\tleft: 0;\n}\n\n.dropdown-menu-right[_ngcontent-%COMP%] {\n\tright: 0;\n\tleft: auto;\n}\n\n@media (min-width: 576px) {\n\t.dropdown-menu-sm-left[_ngcontent-%COMP%] {\n\t\tright: auto;\n\t\tleft: 0;\n\t}\n\n\t.dropdown-menu-sm-right[_ngcontent-%COMP%] {\n\t\tright: 0;\n\t\tleft: auto;\n\t}\n}\n\n@media (min-width: 768px) {\n\t.dropdown-menu-md-left[_ngcontent-%COMP%] {\n\t\tright: auto;\n\t\tleft: 0;\n\t}\n\n\t.dropdown-menu-md-right[_ngcontent-%COMP%] {\n\t\tright: 0;\n\t\tleft: auto;\n\t}\n}\n\n@media (min-width: 992px) {\n\t.dropdown-menu-lg-left[_ngcontent-%COMP%] {\n\t\tright: auto;\n\t\tleft: 0;\n\t}\n\n\t.dropdown-menu-lg-right[_ngcontent-%COMP%] {\n\t\tright: 0;\n\t\tleft: auto;\n\t}\n}\n\n@media (min-width: 1200px) {\n\t.dropdown-menu-xl-left[_ngcontent-%COMP%] {\n\t\tright: auto;\n\t\tleft: 0;\n\t}\n\n\t.dropdown-menu-xl-right[_ngcontent-%COMP%] {\n\t\tright: 0;\n\t\tleft: auto;\n\t}\n}\n\n.dropup[_ngcontent-%COMP%]   .dropdown-menu[_ngcontent-%COMP%] {\n\ttop: auto;\n\tbottom: 100%;\n\tmargin-top: 0;\n\tmargin-bottom: 0.125rem;\n}\n\n.dropup[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]::after {\n\tdisplay: inline-block;\n\tmargin-left: 0.255em;\n\tvertical-align: 0.255em;\n\tcontent: \"\";\n\tborder-top: 0;\n\tborder-right: 0.3em solid transparent;\n\tborder-bottom: 0.3em solid;\n\tborder-left: 0.3em solid transparent;\n}\n\n.dropup[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:empty::after {\n\tmargin-left: 0;\n}\n\n.dropright[_ngcontent-%COMP%]   .dropdown-menu[_ngcontent-%COMP%] {\n\ttop: 0;\n\tright: auto;\n\tleft: 100%;\n\tmargin-top: 0;\n\tmargin-left: 0.125rem;\n}\n\n.dropright[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]::after {\n\tdisplay: inline-block;\n\tmargin-left: 0.255em;\n\tvertical-align: 0.255em;\n\tcontent: \"\";\n\tborder-top: 0.3em solid transparent;\n\tborder-right: 0;\n\tborder-bottom: 0.3em solid transparent;\n\tborder-left: 0.3em solid;\n}\n\n.dropright[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:empty::after {\n\tmargin-left: 0;\n}\n\n.dropright[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]::after {\n\tvertical-align: 0;\n}\n\n.dropleft[_ngcontent-%COMP%]   .dropdown-menu[_ngcontent-%COMP%] {\n\ttop: 0;\n\tright: 100%;\n\tleft: auto;\n\tmargin-top: 0;\n\tmargin-right: 0.125rem;\n}\n\n.dropleft[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]::after {\n\tdisplay: inline-block;\n\tmargin-left: 0.255em;\n\tvertical-align: 0.255em;\n\tcontent: \"\";\n}\n\n.dropleft[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]::after {\n\tdisplay: none;\n}\n\n.dropleft[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]::before {\n\tdisplay: inline-block;\n\tmargin-right: 0.255em;\n\tvertical-align: 0.255em;\n\tcontent: \"\";\n\tborder-top: 0.3em solid transparent;\n\tborder-right: 0.3em solid;\n\tborder-bottom: 0.3em solid transparent;\n}\n\n.dropleft[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:empty::after {\n\tmargin-left: 0;\n}\n\n.dropleft[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]::before {\n\tvertical-align: 0;\n}\n\n.dropdown-menu[x-placement^=top][_ngcontent-%COMP%], .dropdown-menu[x-placement^=right][_ngcontent-%COMP%], .dropdown-menu[x-placement^=bottom][_ngcontent-%COMP%], .dropdown-menu[x-placement^=left][_ngcontent-%COMP%] {\n\tright: auto;\n\tbottom: auto;\n}\n\n.dropdown-divider[_ngcontent-%COMP%] {\n\theight: 0;\n\tmargin: 0.5rem 0;\n\toverflow: hidden;\n\tborder-top: 1px solid #e9ecef;\n}\n\n.dropdown-item[_ngcontent-%COMP%] {\n\tdisplay: block;\n\twidth: 100%;\n\tpadding: 0.25rem 1.5rem;\n\tclear: both;\n\tfont-weight: 400;\n\tcolor: #212529;\n\ttext-align: inherit;\n\twhite-space: nowrap;\n\tbackground-color: transparent;\n\tborder: 0;\n}\n\n.dropdown-item[_ngcontent-%COMP%]:hover, .dropdown-item[_ngcontent-%COMP%]:focus {\n\tcolor: #16181b;\n\ttext-decoration: none;\n\tbackground-color: #f8f9fa;\n}\n\n.dropdown-item.active[_ngcontent-%COMP%], .dropdown-item[_ngcontent-%COMP%]:active {\n\tcolor: #fff;\n\ttext-decoration: none;\n\tbackground-color: #007bff;\n}\n\n.dropdown-item.disabled[_ngcontent-%COMP%], .dropdown-item[_ngcontent-%COMP%]:disabled {\n\tcolor: #6c757d;\n\tpointer-events: none;\n\tbackground-color: transparent;\n}\n\n.dropdown-menu.show[_ngcontent-%COMP%] {\n\tdisplay: block;\n}\n\n.dropdown-header[_ngcontent-%COMP%] {\n\tdisplay: block;\n\tpadding: 0.5rem 1.5rem;\n\tmargin-bottom: 0;\n\tfont-size: 0.875rem;\n\tcolor: #6c757d;\n\twhite-space: nowrap;\n}\n\n.dropdown-item-text[_ngcontent-%COMP%] {\n\tdisplay: block;\n\tpadding: 0.25rem 1.5rem;\n\tcolor: #212529;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJvb3RzdHJhcC1kcm9wZG93bi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Q0FJQyxrQkFBa0I7QUFDbkI7O0FBRUE7Q0FDQyxtQkFBbUI7QUFDcEI7O0FBQ0E7Q0FDQyxxQkFBcUI7Q0FDckIsb0JBQW9CO0NBQ3BCLHVCQUF1QjtDQUN2QixXQUFXO0NBQ1gsdUJBQXVCO0NBQ3ZCLHFDQUFxQztDQUNyQyxnQkFBZ0I7Q0FDaEIsb0NBQW9DO0FBQ3JDOztBQUNBO0NBQ0MsY0FBYztBQUNmOztBQUVBO0NBQ0Msa0JBQWtCO0NBQ2xCLFNBQVM7Q0FDVCxPQUFPO0NBQ1AsYUFBYTtDQUNiLGFBQWE7Q0FDYixXQUFXO0NBQ1gsZ0JBQWdCO0NBQ2hCLGlCQUFpQjtDQUNqQixvQkFBb0I7Q0FDcEIsZUFBZTtDQUNmLGNBQWM7Q0FDZCxnQkFBZ0I7Q0FDaEIsZ0JBQWdCO0NBQ2hCLHNCQUFzQjtDQUN0Qiw0QkFBNEI7Q0FDNUIscUNBQXFDO0NBQ3JDLHNCQUFzQjtBQUN2Qjs7QUFFQTtDQUNDLFdBQVc7Q0FDWCxPQUFPO0FBQ1I7O0FBRUE7Q0FDQyxRQUFRO0NBQ1IsVUFBVTtBQUNYOztBQUVBO0NBQ0M7RUFDQyxXQUFXO0VBQ1gsT0FBTztDQUNSOztDQUVBO0VBQ0MsUUFBUTtFQUNSLFVBQVU7Q0FDWDtBQUNEOztBQUNBO0NBQ0M7RUFDQyxXQUFXO0VBQ1gsT0FBTztDQUNSOztDQUVBO0VBQ0MsUUFBUTtFQUNSLFVBQVU7Q0FDWDtBQUNEOztBQUNBO0NBQ0M7RUFDQyxXQUFXO0VBQ1gsT0FBTztDQUNSOztDQUVBO0VBQ0MsUUFBUTtFQUNSLFVBQVU7Q0FDWDtBQUNEOztBQUNBO0NBQ0M7RUFDQyxXQUFXO0VBQ1gsT0FBTztDQUNSOztDQUVBO0VBQ0MsUUFBUTtFQUNSLFVBQVU7Q0FDWDtBQUNEOztBQUNBO0NBQ0MsU0FBUztDQUNULFlBQVk7Q0FDWixhQUFhO0NBQ2IsdUJBQXVCO0FBQ3hCOztBQUNBO0NBQ0MscUJBQXFCO0NBQ3JCLG9CQUFvQjtDQUNwQix1QkFBdUI7Q0FDdkIsV0FBVztDQUNYLGFBQWE7Q0FDYixxQ0FBcUM7Q0FDckMsMEJBQTBCO0NBQzFCLG9DQUFvQztBQUNyQzs7QUFDQTtDQUNDLGNBQWM7QUFDZjs7QUFFQTtDQUNDLE1BQU07Q0FDTixXQUFXO0NBQ1gsVUFBVTtDQUNWLGFBQWE7Q0FDYixxQkFBcUI7QUFDdEI7O0FBQ0E7Q0FDQyxxQkFBcUI7Q0FDckIsb0JBQW9CO0NBQ3BCLHVCQUF1QjtDQUN2QixXQUFXO0NBQ1gsbUNBQW1DO0NBQ25DLGVBQWU7Q0FDZixzQ0FBc0M7Q0FDdEMsd0JBQXdCO0FBQ3pCOztBQUNBO0NBQ0MsY0FBYztBQUNmOztBQUNBO0NBQ0MsaUJBQWlCO0FBQ2xCOztBQUVBO0NBQ0MsTUFBTTtDQUNOLFdBQVc7Q0FDWCxVQUFVO0NBQ1YsYUFBYTtDQUNiLHNCQUFzQjtBQUN2Qjs7QUFDQTtDQUNDLHFCQUFxQjtDQUNyQixvQkFBb0I7Q0FDcEIsdUJBQXVCO0NBQ3ZCLFdBQVc7QUFDWjs7QUFDQTtDQUNDLGFBQWE7QUFDZDs7QUFDQTtDQUNDLHFCQUFxQjtDQUNyQixxQkFBcUI7Q0FDckIsdUJBQXVCO0NBQ3ZCLFdBQVc7Q0FDWCxtQ0FBbUM7Q0FDbkMseUJBQXlCO0NBQ3pCLHNDQUFzQztBQUN2Qzs7QUFDQTtDQUNDLGNBQWM7QUFDZjs7QUFDQTtDQUNDLGlCQUFpQjtBQUNsQjs7QUFFQTtDQUNDLFdBQVc7Q0FDWCxZQUFZO0FBQ2I7O0FBRUE7Q0FDQyxTQUFTO0NBQ1QsZ0JBQWdCO0NBQ2hCLGdCQUFnQjtDQUNoQiw2QkFBNkI7QUFDOUI7O0FBRUE7Q0FDQyxjQUFjO0NBQ2QsV0FBVztDQUNYLHVCQUF1QjtDQUN2QixXQUFXO0NBQ1gsZ0JBQWdCO0NBQ2hCLGNBQWM7Q0FDZCxtQkFBbUI7Q0FDbkIsbUJBQW1CO0NBQ25CLDZCQUE2QjtDQUM3QixTQUFTO0FBQ1Y7O0FBQ0E7Q0FDQyxjQUFjO0NBQ2QscUJBQXFCO0NBQ3JCLHlCQUF5QjtBQUMxQjs7QUFDQTtDQUNDLFdBQVc7Q0FDWCxxQkFBcUI7Q0FDckIseUJBQXlCO0FBQzFCOztBQUNBO0NBQ0MsY0FBYztDQUNkLG9CQUFvQjtDQUNwQiw2QkFBNkI7QUFDOUI7O0FBRUE7Q0FDQyxjQUFjO0FBQ2Y7O0FBRUE7Q0FDQyxjQUFjO0NBQ2Qsc0JBQXNCO0NBQ3RCLGdCQUFnQjtDQUNoQixtQkFBbUI7Q0FDbkIsY0FBYztDQUNkLG1CQUFtQjtBQUNwQjs7QUFFQTtDQUNDLGNBQWM7Q0FDZCx1QkFBdUI7Q0FDdkIsY0FBYztBQUNmIiwiZmlsZSI6ImJvb3RzdHJhcC1kcm9wZG93bi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZHJvcHVwLFxuLmRyb3ByaWdodCxcbi5kcm9wZG93bixcbi5kcm9wbGVmdCB7XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLmRyb3Bkb3duLXRvZ2dsZSB7XG5cdHdoaXRlLXNwYWNlOiBub3dyYXA7XG59XG4uZHJvcGRvd24tdG9nZ2xlOjphZnRlciB7XG5cdGRpc3BsYXk6IGlubGluZS1ibG9jaztcblx0bWFyZ2luLWxlZnQ6IDAuMjU1ZW07XG5cdHZlcnRpY2FsLWFsaWduOiAwLjI1NWVtO1xuXHRjb250ZW50OiBcIlwiO1xuXHRib3JkZXItdG9wOiAwLjNlbSBzb2xpZDtcblx0Ym9yZGVyLXJpZ2h0OiAwLjNlbSBzb2xpZCB0cmFuc3BhcmVudDtcblx0Ym9yZGVyLWJvdHRvbTogMDtcblx0Ym9yZGVyLWxlZnQ6IDAuM2VtIHNvbGlkIHRyYW5zcGFyZW50O1xufVxuLmRyb3Bkb3duLXRvZ2dsZTplbXB0eTo6YWZ0ZXIge1xuXHRtYXJnaW4tbGVmdDogMDtcbn1cblxuLmRyb3Bkb3duLW1lbnUge1xuXHRwb3NpdGlvbjogYWJzb2x1dGU7XG5cdHRvcDogMTAwJTtcblx0bGVmdDogMDtcblx0ei1pbmRleDogMTAwMDtcblx0ZGlzcGxheTogbm9uZTtcblx0ZmxvYXQ6IGxlZnQ7XG5cdG1pbi13aWR0aDogMTByZW07XG5cdHBhZGRpbmc6IDAuNXJlbSAwO1xuXHRtYXJnaW46IDAuMTI1cmVtIDAgMDtcblx0Zm9udC1zaXplOiAxcmVtO1xuXHRjb2xvcjogIzIxMjUyOTtcblx0dGV4dC1hbGlnbjogbGVmdDtcblx0bGlzdC1zdHlsZTogbm9uZTtcblx0YmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcblx0YmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDtcblx0Ym9yZGVyOiAxcHggc29saWQgcmdiYSgwLCAwLCAwLCAwLjE1KTtcblx0Ym9yZGVyLXJhZGl1czogMC4yNXJlbTtcbn1cblxuLmRyb3Bkb3duLW1lbnUtbGVmdCB7XG5cdHJpZ2h0OiBhdXRvO1xuXHRsZWZ0OiAwO1xufVxuXG4uZHJvcGRvd24tbWVudS1yaWdodCB7XG5cdHJpZ2h0OiAwO1xuXHRsZWZ0OiBhdXRvO1xufVxuXG5AbWVkaWEgKG1pbi13aWR0aDogNTc2cHgpIHtcblx0LmRyb3Bkb3duLW1lbnUtc20tbGVmdCB7XG5cdFx0cmlnaHQ6IGF1dG87XG5cdFx0bGVmdDogMDtcblx0fVxuXG5cdC5kcm9wZG93bi1tZW51LXNtLXJpZ2h0IHtcblx0XHRyaWdodDogMDtcblx0XHRsZWZ0OiBhdXRvO1xuXHR9XG59XG5AbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcblx0LmRyb3Bkb3duLW1lbnUtbWQtbGVmdCB7XG5cdFx0cmlnaHQ6IGF1dG87XG5cdFx0bGVmdDogMDtcblx0fVxuXG5cdC5kcm9wZG93bi1tZW51LW1kLXJpZ2h0IHtcblx0XHRyaWdodDogMDtcblx0XHRsZWZ0OiBhdXRvO1xuXHR9XG59XG5AbWVkaWEgKG1pbi13aWR0aDogOTkycHgpIHtcblx0LmRyb3Bkb3duLW1lbnUtbGctbGVmdCB7XG5cdFx0cmlnaHQ6IGF1dG87XG5cdFx0bGVmdDogMDtcblx0fVxuXG5cdC5kcm9wZG93bi1tZW51LWxnLXJpZ2h0IHtcblx0XHRyaWdodDogMDtcblx0XHRsZWZ0OiBhdXRvO1xuXHR9XG59XG5AbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7XG5cdC5kcm9wZG93bi1tZW51LXhsLWxlZnQge1xuXHRcdHJpZ2h0OiBhdXRvO1xuXHRcdGxlZnQ6IDA7XG5cdH1cblxuXHQuZHJvcGRvd24tbWVudS14bC1yaWdodCB7XG5cdFx0cmlnaHQ6IDA7XG5cdFx0bGVmdDogYXV0bztcblx0fVxufVxuLmRyb3B1cCAuZHJvcGRvd24tbWVudSB7XG5cdHRvcDogYXV0bztcblx0Ym90dG9tOiAxMDAlO1xuXHRtYXJnaW4tdG9wOiAwO1xuXHRtYXJnaW4tYm90dG9tOiAwLjEyNXJlbTtcbn1cbi5kcm9wdXAgLmRyb3Bkb3duLXRvZ2dsZTo6YWZ0ZXIge1xuXHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG5cdG1hcmdpbi1sZWZ0OiAwLjI1NWVtO1xuXHR2ZXJ0aWNhbC1hbGlnbjogMC4yNTVlbTtcblx0Y29udGVudDogXCJcIjtcblx0Ym9yZGVyLXRvcDogMDtcblx0Ym9yZGVyLXJpZ2h0OiAwLjNlbSBzb2xpZCB0cmFuc3BhcmVudDtcblx0Ym9yZGVyLWJvdHRvbTogMC4zZW0gc29saWQ7XG5cdGJvcmRlci1sZWZ0OiAwLjNlbSBzb2xpZCB0cmFuc3BhcmVudDtcbn1cbi5kcm9wdXAgLmRyb3Bkb3duLXRvZ2dsZTplbXB0eTo6YWZ0ZXIge1xuXHRtYXJnaW4tbGVmdDogMDtcbn1cblxuLmRyb3ByaWdodCAuZHJvcGRvd24tbWVudSB7XG5cdHRvcDogMDtcblx0cmlnaHQ6IGF1dG87XG5cdGxlZnQ6IDEwMCU7XG5cdG1hcmdpbi10b3A6IDA7XG5cdG1hcmdpbi1sZWZ0OiAwLjEyNXJlbTtcbn1cbi5kcm9wcmlnaHQgLmRyb3Bkb3duLXRvZ2dsZTo6YWZ0ZXIge1xuXHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG5cdG1hcmdpbi1sZWZ0OiAwLjI1NWVtO1xuXHR2ZXJ0aWNhbC1hbGlnbjogMC4yNTVlbTtcblx0Y29udGVudDogXCJcIjtcblx0Ym9yZGVyLXRvcDogMC4zZW0gc29saWQgdHJhbnNwYXJlbnQ7XG5cdGJvcmRlci1yaWdodDogMDtcblx0Ym9yZGVyLWJvdHRvbTogMC4zZW0gc29saWQgdHJhbnNwYXJlbnQ7XG5cdGJvcmRlci1sZWZ0OiAwLjNlbSBzb2xpZDtcbn1cbi5kcm9wcmlnaHQgLmRyb3Bkb3duLXRvZ2dsZTplbXB0eTo6YWZ0ZXIge1xuXHRtYXJnaW4tbGVmdDogMDtcbn1cbi5kcm9wcmlnaHQgLmRyb3Bkb3duLXRvZ2dsZTo6YWZ0ZXIge1xuXHR2ZXJ0aWNhbC1hbGlnbjogMDtcbn1cblxuLmRyb3BsZWZ0IC5kcm9wZG93bi1tZW51IHtcblx0dG9wOiAwO1xuXHRyaWdodDogMTAwJTtcblx0bGVmdDogYXV0bztcblx0bWFyZ2luLXRvcDogMDtcblx0bWFyZ2luLXJpZ2h0OiAwLjEyNXJlbTtcbn1cbi5kcm9wbGVmdCAuZHJvcGRvd24tdG9nZ2xlOjphZnRlciB7XG5cdGRpc3BsYXk6IGlubGluZS1ibG9jaztcblx0bWFyZ2luLWxlZnQ6IDAuMjU1ZW07XG5cdHZlcnRpY2FsLWFsaWduOiAwLjI1NWVtO1xuXHRjb250ZW50OiBcIlwiO1xufVxuLmRyb3BsZWZ0IC5kcm9wZG93bi10b2dnbGU6OmFmdGVyIHtcblx0ZGlzcGxheTogbm9uZTtcbn1cbi5kcm9wbGVmdCAuZHJvcGRvd24tdG9nZ2xlOjpiZWZvcmUge1xuXHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG5cdG1hcmdpbi1yaWdodDogMC4yNTVlbTtcblx0dmVydGljYWwtYWxpZ246IDAuMjU1ZW07XG5cdGNvbnRlbnQ6IFwiXCI7XG5cdGJvcmRlci10b3A6IDAuM2VtIHNvbGlkIHRyYW5zcGFyZW50O1xuXHRib3JkZXItcmlnaHQ6IDAuM2VtIHNvbGlkO1xuXHRib3JkZXItYm90dG9tOiAwLjNlbSBzb2xpZCB0cmFuc3BhcmVudDtcbn1cbi5kcm9wbGVmdCAuZHJvcGRvd24tdG9nZ2xlOmVtcHR5OjphZnRlciB7XG5cdG1hcmdpbi1sZWZ0OiAwO1xufVxuLmRyb3BsZWZ0IC5kcm9wZG93bi10b2dnbGU6OmJlZm9yZSB7XG5cdHZlcnRpY2FsLWFsaWduOiAwO1xufVxuXG4uZHJvcGRvd24tbWVudVt4LXBsYWNlbWVudF49dG9wXSwgLmRyb3Bkb3duLW1lbnVbeC1wbGFjZW1lbnRePXJpZ2h0XSwgLmRyb3Bkb3duLW1lbnVbeC1wbGFjZW1lbnRePWJvdHRvbV0sIC5kcm9wZG93bi1tZW51W3gtcGxhY2VtZW50Xj1sZWZ0XSB7XG5cdHJpZ2h0OiBhdXRvO1xuXHRib3R0b206IGF1dG87XG59XG5cbi5kcm9wZG93bi1kaXZpZGVyIHtcblx0aGVpZ2h0OiAwO1xuXHRtYXJnaW46IDAuNXJlbSAwO1xuXHRvdmVyZmxvdzogaGlkZGVuO1xuXHRib3JkZXItdG9wOiAxcHggc29saWQgI2U5ZWNlZjtcbn1cblxuLmRyb3Bkb3duLWl0ZW0ge1xuXHRkaXNwbGF5OiBibG9jaztcblx0d2lkdGg6IDEwMCU7XG5cdHBhZGRpbmc6IDAuMjVyZW0gMS41cmVtO1xuXHRjbGVhcjogYm90aDtcblx0Zm9udC13ZWlnaHQ6IDQwMDtcblx0Y29sb3I6ICMyMTI1Mjk7XG5cdHRleHQtYWxpZ246IGluaGVyaXQ7XG5cdHdoaXRlLXNwYWNlOiBub3dyYXA7XG5cdGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xuXHRib3JkZXI6IDA7XG59XG4uZHJvcGRvd24taXRlbTpob3ZlciwgLmRyb3Bkb3duLWl0ZW06Zm9jdXMge1xuXHRjb2xvcjogIzE2MTgxYjtcblx0dGV4dC1kZWNvcmF0aW9uOiBub25lO1xuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjZjhmOWZhO1xufVxuLmRyb3Bkb3duLWl0ZW0uYWN0aXZlLCAuZHJvcGRvd24taXRlbTphY3RpdmUge1xuXHRjb2xvcjogI2ZmZjtcblx0dGV4dC1kZWNvcmF0aW9uOiBub25lO1xuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjMDA3YmZmO1xufVxuLmRyb3Bkb3duLWl0ZW0uZGlzYWJsZWQsIC5kcm9wZG93bi1pdGVtOmRpc2FibGVkIHtcblx0Y29sb3I6ICM2Yzc1N2Q7XG5cdHBvaW50ZXItZXZlbnRzOiBub25lO1xuXHRiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcbn1cblxuLmRyb3Bkb3duLW1lbnUuc2hvdyB7XG5cdGRpc3BsYXk6IGJsb2NrO1xufVxuXG4uZHJvcGRvd24taGVhZGVyIHtcblx0ZGlzcGxheTogYmxvY2s7XG5cdHBhZGRpbmc6IDAuNXJlbSAxLjVyZW07XG5cdG1hcmdpbi1ib3R0b206IDA7XG5cdGZvbnQtc2l6ZTogMC44NzVyZW07XG5cdGNvbG9yOiAjNmM3NTdkO1xuXHR3aGl0ZS1zcGFjZTogbm93cmFwO1xufVxuXG4uZHJvcGRvd24taXRlbS10ZXh0IHtcblx0ZGlzcGxheTogYmxvY2s7XG5cdHBhZGRpbmc6IDAuMjVyZW0gMS41cmVtO1xuXHRjb2xvcjogIzIxMjUyOTtcbn1cbiJdfQ== */", "li.iti__country[_ngcontent-%COMP%]:hover {\n\tbackground-color: rgba(0, 0, 0, 0.05);\n}\n.iti__selected-flag.dropdown-toggle[_ngcontent-%COMP%]:after {\n\tcontent: none;\n}\n.iti__flag-container.disabled[_ngcontent-%COMP%] {\n\tcursor: default !important;\n}\n.iti.iti--allow-dropdown[_ngcontent-%COMP%]   .flag-container.disabled[_ngcontent-%COMP%]:hover   .iti__selected-flag[_ngcontent-%COMP%] {\n\tbackground: none;\n}\n.country-dropdown[_ngcontent-%COMP%] {\n\tborder: 1px solid #ccc;\n\twidth: -webkit-fit-content;\n\twidth: -moz-fit-content;\n\twidth: fit-content;\n\tpadding: 1px;\n\tborder-collapse: collapse;\n}\n.search-container[_ngcontent-%COMP%] {\n\tposition: relative;\n}\n.search-container[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n\twidth: 100%;\n\tborder: none;\n\tborder-bottom: 1px solid #ccc;\n\tpadding-left: 10px;\n}\n.search-icon[_ngcontent-%COMP%] {\n\tposition: absolute;\n\tz-index: 2;\n\twidth: 25px;\n\tmargin: 1px 10px;\n}\n.iti__country-list[_ngcontent-%COMP%] {\n\tposition: relative;\n\tborder: none;\n}\n.iti[_ngcontent-%COMP%]   input#country-search-box[_ngcontent-%COMP%] {\n\tpadding-left: 6px;\n}\n.iti[_ngcontent-%COMP%]   .selected-dial-code[_ngcontent-%COMP%] {\n\tmargin-left: 6px;\n}\n.iti.separate-dial-code[_ngcontent-%COMP%]   .iti__selected-flag[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2[_ngcontent-%COMP%]   .iti__selected-flag[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3[_ngcontent-%COMP%]   .iti__selected-flag[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4[_ngcontent-%COMP%]   .iti__selected-flag[_ngcontent-%COMP%] {\n\twidth: 93px;\n}\n.iti.separate-dial-code[_ngcontent-%COMP%]   input[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2[_ngcontent-%COMP%]   input[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3[_ngcontent-%COMP%]   input[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4[_ngcontent-%COMP%]   input[_ngcontent-%COMP%] {\n\tpadding-left: 98px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5neC1pbnRsLXRlbC1pbnB1dC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0NBQ0MscUNBQXFDO0FBQ3RDO0FBQ0E7Q0FDQyxhQUFhO0FBQ2Q7QUFDQTtDQUNDLDBCQUEwQjtBQUMzQjtBQUNBO0NBQ0MsZ0JBQWdCO0FBQ2pCO0FBQ0E7Q0FDQyxzQkFBc0I7Q0FDdEIsMEJBQWtCO0NBQWxCLHVCQUFrQjtDQUFsQixrQkFBa0I7Q0FDbEIsWUFBWTtDQUNaLHlCQUF5QjtBQUMxQjtBQUNBO0NBQ0Msa0JBQWtCO0FBQ25CO0FBQ0E7Q0FDQyxXQUFXO0NBQ1gsWUFBWTtDQUNaLDZCQUE2QjtDQUM3QixrQkFBa0I7QUFDbkI7QUFDQTtDQUNDLGtCQUFrQjtDQUNsQixVQUFVO0NBQ1YsV0FBVztDQUNYLGdCQUFnQjtBQUNqQjtBQUNBO0NBQ0Msa0JBQWtCO0NBQ2xCLFlBQVk7QUFDYjtBQUVBO0NBQ0MsaUJBQWlCO0FBQ2xCO0FBRUE7Q0FDQyxnQkFBZ0I7QUFDakI7QUFFQTs7OztDQUlDLFdBQVc7QUFDWjtBQUVBOzs7O0NBSUMsa0JBQWtCO0FBQ25CIiwiZmlsZSI6Im5neC1pbnRsLXRlbC1pbnB1dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibGkuaXRpX19jb3VudHJ5OmhvdmVyIHtcblx0YmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwLjA1KTtcbn1cbi5pdGlfX3NlbGVjdGVkLWZsYWcuZHJvcGRvd24tdG9nZ2xlOmFmdGVyIHtcblx0Y29udGVudDogbm9uZTtcbn1cbi5pdGlfX2ZsYWctY29udGFpbmVyLmRpc2FibGVkIHtcblx0Y3Vyc29yOiBkZWZhdWx0ICFpbXBvcnRhbnQ7XG59XG4uaXRpLml0aS0tYWxsb3ctZHJvcGRvd24gLmZsYWctY29udGFpbmVyLmRpc2FibGVkOmhvdmVyIC5pdGlfX3NlbGVjdGVkLWZsYWcge1xuXHRiYWNrZ3JvdW5kOiBub25lO1xufVxuLmNvdW50cnktZHJvcGRvd24ge1xuXHRib3JkZXI6IDFweCBzb2xpZCAjY2NjO1xuXHR3aWR0aDogZml0LWNvbnRlbnQ7XG5cdHBhZGRpbmc6IDFweDtcblx0Ym9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcbn1cbi5zZWFyY2gtY29udGFpbmVyIHtcblx0cG9zaXRpb246IHJlbGF0aXZlO1xufVxuLnNlYXJjaC1jb250YWluZXIgaW5wdXQge1xuXHR3aWR0aDogMTAwJTtcblx0Ym9yZGVyOiBub25lO1xuXHRib3JkZXItYm90dG9tOiAxcHggc29saWQgI2NjYztcblx0cGFkZGluZy1sZWZ0OiAxMHB4O1xufVxuLnNlYXJjaC1pY29uIHtcblx0cG9zaXRpb246IGFic29sdXRlO1xuXHR6LWluZGV4OiAyO1xuXHR3aWR0aDogMjVweDtcblx0bWFyZ2luOiAxcHggMTBweDtcbn1cbi5pdGlfX2NvdW50cnktbGlzdCB7XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0Ym9yZGVyOiBub25lO1xufVxuXG4uaXRpIGlucHV0I2NvdW50cnktc2VhcmNoLWJveCB7XG5cdHBhZGRpbmctbGVmdDogNnB4O1xufVxuXG4uaXRpIC5zZWxlY3RlZC1kaWFsLWNvZGUge1xuXHRtYXJnaW4tbGVmdDogNnB4O1xufVxuXG4uaXRpLnNlcGFyYXRlLWRpYWwtY29kZSAuaXRpX19zZWxlY3RlZC1mbGFnLFxuLml0aS5zZXBhcmF0ZS1kaWFsLWNvZGUuaXRpLS1hbGxvdy1kcm9wZG93bi5pdGktc2RjLTIgLml0aV9fc2VsZWN0ZWQtZmxhZyxcbi5pdGkuc2VwYXJhdGUtZGlhbC1jb2RlLml0aS0tYWxsb3ctZHJvcGRvd24uaXRpLXNkYy0zIC5pdGlfX3NlbGVjdGVkLWZsYWcsXG4uaXRpLnNlcGFyYXRlLWRpYWwtY29kZS5pdGktLWFsbG93LWRyb3Bkb3duLml0aS1zZGMtNCAuaXRpX19zZWxlY3RlZC1mbGFnIHtcblx0d2lkdGg6IDkzcHg7XG59XG5cbi5pdGkuc2VwYXJhdGUtZGlhbC1jb2RlIGlucHV0LFxuLml0aS5zZXBhcmF0ZS1kaWFsLWNvZGUuaXRpLS1hbGxvdy1kcm9wZG93bi5pdGktc2RjLTIgaW5wdXQsXG4uaXRpLnNlcGFyYXRlLWRpYWwtY29kZS5pdGktLWFsbG93LWRyb3Bkb3duLml0aS1zZGMtMyBpbnB1dCxcbi5pdGkuc2VwYXJhdGUtZGlhbC1jb2RlLml0aS0tYWxsb3ctZHJvcGRvd24uaXRpLXNkYy00IGlucHV0IHtcblx0cGFkZGluZy1sZWZ0OiA5OHB4O1xufVxuIl19 */"] });
+};
+AppComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_5__["Component"])({
+        selector: 'app-root',
+        template: _raw_loader_app_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
+        styles: [_app_component_css__WEBPACK_IMPORTED_MODULE_2__["default"]]
+    })
+], AppComponent);
+
 
 
 /***/ }),
 
-/***/ 5098:
+/***/ "TGSw":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./projects/ngx-intl-tel-input/src/lib/ngx-intl-tel-input.component.html ***!
+  \*********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"iti iti--allow-dropdown\" [ngClass]=\"separateDialCodeClass\">\n\t<div\n\t\tclass=\"iti__flag-container\"\n\t\tdropdown\n\t\t[ngClass]=\"{ disabled: disabled }\"\n\t\t[isDisabled]=\"disabled\"\n\t>\n\t\t<div class=\"iti__selected-flag dropdown-toggle\" dropdownToggle>\n\t\t\t<div class=\"iti__flag\" [ngClass]=\"selectedCountry?.flagClass\"></div>\n\t\t\t<div *ngIf=\"separateDialCode\" class=\"selected-dial-code\">\n\t\t\t\t+{{ selectedCountry.dialCode }}\n\t\t\t</div>\n\t\t\t<div class=\"iti__arrow\"></div>\n\t\t</div>\n\t\t<div *dropdownMenu class=\"dropdown-menu country-dropdown\">\n\t\t\t<div\n\t\t\t\tclass=\"search-container\"\n\t\t\t\t*ngIf=\"searchCountryFlag && searchCountryField\"\n\t\t\t>\n\t\t\t\t<input\n\t\t\t\t\tid=\"country-search-box\"\n\t\t\t\t\t[(ngModel)]=\"countrySearchText\"\n\t\t\t\t\t(keyup)=\"searchCountry()\"\n\t\t\t\t\t(click)=\"$event.stopPropagation()\"\n\t\t\t\t\t[placeholder]=\"searchCountryPlaceholder\"\n\t\t\t\t\tautofocus\n\t\t\t\t/>\n\t\t\t</div>\n\t\t\t<ul class=\"iti__country-list\" #countryList>\n\t\t\t\t<li\n\t\t\t\t\tclass=\"iti__country iti__preferred\"\n\t\t\t\t\t*ngFor=\"let country of preferredCountriesInDropDown\"\n\t\t\t\t\t(click)=\"onCountrySelect(country, focusable)\"\n\t\t\t\t\t[id]=\"country.htmlId + '-preferred'\"\n\t\t\t\t>\n\t\t\t\t\t<div class=\"iti__flag-box\">\n\t\t\t\t\t\t<div class=\"iti__flag\" [ngClass]=\"country.flagClass\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span class=\"iti__country-name\">{{ country.name }}</span>\n\t\t\t\t\t<span class=\"iti__dial-code\">+{{ country.dialCode }}</span>\n\t\t\t\t</li>\n\t\t\t\t<li\n\t\t\t\t\tclass=\"iti__divider\"\n\t\t\t\t\t*ngIf=\"preferredCountriesInDropDown?.length\"\n\t\t\t\t></li>\n\t\t\t\t<li\n\t\t\t\t\tclass=\"iti__country iti__standard\"\n\t\t\t\t\t*ngFor=\"let country of allCountries\"\n\t\t\t\t\t(click)=\"onCountrySelect(country, focusable)\"\n\t\t\t\t\t[id]=\"country.htmlId\"\n\t\t\t\t>\n\t\t\t\t\t<div class=\"iti__flag-box\">\n\t\t\t\t\t\t<div class=\"iti__flag\" [ngClass]=\"country.flagClass\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span class=\"iti__country-name\">{{ country.name }}</span>\n\t\t\t\t\t<span class=\"iti__dial-code\">+{{ country.dialCode }}</span>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t</div>\n\t</div>\n\t<!--\t\t[mask]=\"phoneMask\"-->\n\t<input\n\n\t\ttype=\"tel\"\n\t\t[id]=\"inputId\"\n\t\tautocomplete=\"off\"\n\t\t[ngClass]=\"cssClass\"\n\t\t(blur)=\"onTouched()\"\n\t\t(keypress)=\"onInputKeyPress($event)\"\n\t\t[(ngModel)]=\"phoneNumber\"\n\t\t(ngModelChange)=\"onPhoneNumberChange()\"\n\t\t[disabled]=\"disabled\"\n\t\t[placeholder]=\"resolvePlaceholder()\"\n\t\t[attr.maxLength]=\"maxLength\"\n\t\t[attr.validation]=\"phoneValidation\"\n\t\t#focusable\n\t/>\n</div>\n");
+
+/***/ }),
+
+/***/ "VzVu":
+/*!**************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!--The content below is only a placeholder and can be replaced. test-->\n<div style=\"margin: 50px\">\n\t<h1>Test International Telephone Input Form</h1>\n\t<br>\n\t<div class=\"wrapper\">\n\t\t<button (click)=\"changePreferredCountries()\">Change Preferred Countries</button>\n\t</div>\n\t<div class=\"wrapper\">\n\t\t<input type=\"checkbox\"\n\t\t\t[(ngModel)]=\"separateDialCode\">\n\t\t<label>&nbsp;Separate Dial Code?</label>\n\t</div>\n\t<form #f=\"ngForm\"\n\t\t[formGroup]=\"phoneForm\">\n\t\t<div class=\"wrapper\">\n\t\t\t<ngx-intl-tel-input [cssClass]=\"'custom'\"\n\t\t\t\t[preferredCountries]=\"preferredCountries\"\n\t\t\t\t[enableAutoCountrySelect]=\"true\"\n\t\t\t\t[enablePlaceholder]=\"true\"\n\t\t\t\t[searchCountryFlag]=\"true\"\n\t\t\t\t[searchCountryField]=\"[SearchCountryField.Iso2, SearchCountryField.Name]\"\n\t\t\t\t[selectFirstCountry]=\"false\"\n\t\t\t\t[selectedCountryISO]=\"CountryISO.India\"\n\t\t\t\t[maxLength]=\"15\"\n\t\t\t\t[phoneValidation]=\"true\"\n\t\t\t\t[separateDialCode]=\"separateDialCode\"\n\t\t\t\t[numberFormat]=\"PhoneNumberFormat.National\"\n\t\t\t\tname=\"phone\"\n\t\t\t\tformControlName=\"phone\">\n\t\t\t</ngx-intl-tel-input>\n\t\t</div>\n\t\t<div class=\"wrapper\">\n\t\t\t<button (click)=\"f.reset()\">Reset</button>\n\t\t</div>\n\t</form>\n\t<br>\n\t<div><strong>Is input valid:</strong>\n\t\t<pre>{{ !f.form.controls['phone'].invalid }}</pre>\n\t</div>\n\t<div><strong>Is input touched:</strong>\n\t\t<pre>{{ f.form.controls['phone'].touched }}</pre>\n\t</div>\n\t<div><strong>Is form valid:</strong>\n\t\t<pre>{{ f.form.valid }}</pre>\n\t</div>\n\t<div><strong>Form value:</strong>\n\t\t<pre>{{ f.form.value | json }}</pre>\n\t</div>\n\t<div><strong>Form validation errors:</strong>\n\t\t<pre>{{ f.form.controls['phone'].errors | json }}</pre>\n\t</div>\n</div>\n");
+
+/***/ }),
+
+/***/ "ZAI4":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/*! exports provided: AppModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
+/* harmony import */ var projects_ngx_intl_tel_input_src_lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! projects/ngx-intl-tel-input/src/lib/ngx-intl-tel-input.module */ "hwli");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "s7LF");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "cUpR");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser/animations */ "omvX");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "Sy1n");
+
+
+
+
+
+
+
+let AppModule = class AppModule {
+};
+AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]],
+        imports: [
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["BrowserModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"],
+            projects_ngx_intl_tel_input_src_lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_1__["NgxIntlTelInputModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"],
+        ],
+        providers: [],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]],
+    })
+], AppModule);
+
+
+
+/***/ }),
+
+/***/ "hwli":
 /*!**************************************************************************!*\
   !*** ./projects/ngx-intl-tel-input/src/lib/ngx-intl-tel-input.module.ts ***!
   \**************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/*! exports provided: dropdownModuleForRoot, NgxIntlTelInputModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "dropdownModuleForRoot": function() { return /* binding */ dropdownModuleForRoot; },
-/* harmony export */   "NgxIntlTelInputModule": function() { return /* binding */ NgxIntlTelInputModule; }
-/* harmony export */ });
-/* harmony import */ var ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-bootstrap/dropdown */ 3676);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 93);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ 9298);
-/* harmony import */ var _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./directives/native-element-injector.directive */ 1993);
-/* harmony import */ var _ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ngx-intl-tel-input.component */ 3749);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 1477);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dropdownModuleForRoot", function() { return dropdownModuleForRoot; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgxIntlTelInputModule", function() { return NgxIntlTelInputModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
+/* harmony import */ var ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ngx-bootstrap/dropdown */ "FE24");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "SVse");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "s7LF");
+/* harmony import */ var _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./directives/native-element-injector.directive */ "DVhr");
+/* harmony import */ var _ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ngx-intl-tel-input.component */ "4I9l");
 
 
 
@@ -2359,38 +2485,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // import { NgxMaskModule } from 'ngx-mask';
-const dropdownModuleForRoot = ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_2__.BsDropdownModule.forRoot();
+const dropdownModuleForRoot = ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_1__["BsDropdownModule"].forRoot();
 //export const ngxMaskModuleForRoot = NgxMaskModule.forRoot();
-class NgxIntlTelInputModule {
-}
-NgxIntlTelInputModule.ɵfac = function NgxIntlTelInputModule_Factory(t) { return new (t || NgxIntlTelInputModule)(); };
-NgxIntlTelInputModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({ type: NgxIntlTelInputModule });
-NgxIntlTelInputModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({ imports: [[
-            _angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_5__.ReactiveFormsModule,
+let NgxIntlTelInputModule = class NgxIntlTelInputModule {
+};
+NgxIntlTelInputModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
+        declarations: [_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_6__["NgxIntlTelInputComponent"], _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_5__["NativeElementInjectorDirective"]],
+        imports: [
+            _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ReactiveFormsModule"],
             dropdownModuleForRoot,
-            //	ngxMaskModuleForRoot,
-        ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsetNgModuleScope"](NgxIntlTelInputModule, { declarations: [_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_1__.NgxIntlTelInputComponent, _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_0__.NativeElementInjectorDirective], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_5__.ReactiveFormsModule, ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_2__.BsDropdownModule], exports: [_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_1__.NgxIntlTelInputComponent, _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_0__.NativeElementInjectorDirective] }); })();
+        ],
+        exports: [_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_6__["NgxIntlTelInputComponent"], _directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_5__["NativeElementInjectorDirective"]],
+    })
+], NgxIntlTelInputModule);
+
 
 
 /***/ }),
 
-/***/ 7997:
+/***/ "l9+I":
 /*!*****************************************************************************!*\
   !*** ./projects/ngx-intl-tel-input/src/lib/ngx-intl-tel-input.validator.ts ***!
   \*****************************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/*! exports provided: phoneNumberValidator */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "phoneNumberValidator": function() { return /* binding */ phoneNumberValidator; }
-/* harmony export */ });
-/* harmony import */ var google_libphonenumber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! google-libphonenumber */ 882);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "phoneNumberValidator", function() { return phoneNumberValidator; });
+/* harmony import */ var google_libphonenumber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! google-libphonenumber */ "ar4q");
 /* harmony import */ var google_libphonenumber__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(google_libphonenumber__WEBPACK_IMPORTED_MODULE_0__);
 /* eslint-disable */
 /* tslint-disable */
@@ -2422,7 +2548,7 @@ const phoneNumberValidator = (control) => {
             inputBox.setCustomValidity('Invalid field.');
             let number;
             try {
-                number = google_libphonenumber__WEBPACK_IMPORTED_MODULE_0__.PhoneNumberUtil.getInstance().parse(control.value.number, control.value.countryCode);
+                number = google_libphonenumber__WEBPACK_IMPORTED_MODULE_0__["PhoneNumberUtil"].getInstance().parse(control.value.number, control.value.countryCode);
             }
             catch (e) {
                 if (isRequired === true) {
@@ -2437,7 +2563,7 @@ const phoneNumberValidator = (control) => {
                     return error;
                 }
                 else {
-                    if (!google_libphonenumber__WEBPACK_IMPORTED_MODULE_0__.PhoneNumberUtil.getInstance().isValidNumberForRegion(number, control.value.countryCode)) {
+                    if (!google_libphonenumber__WEBPACK_IMPORTED_MODULE_0__["PhoneNumberUtil"].getInstance().isValidNumberForRegion(number, control.value.countryCode)) {
                         return error;
                     }
                     else {
@@ -2457,293 +2583,75 @@ const phoneNumberValidator = (control) => {
 
 /***/ }),
 
-/***/ 2261:
-/*!*******************************************************!*\
-  !*** ./projects/ngx-intl-tel-input/src/public_api.ts ***!
-  \*******************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ "mSqq":
+/*!********************************************************************************!*\
+  !*** ./projects/ngx-intl-tel-input/src/lib/enums/search-country-field.enum.ts ***!
+  \********************************************************************************/
+/*! exports provided: SearchCountryField */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "NgxIntlTelInputComponent": function() { return /* reexport safe */ _lib_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_0__.NgxIntlTelInputComponent; },
-/* harmony export */   "NativeElementInjectorDirective": function() { return /* reexport safe */ _lib_directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_1__.NativeElementInjectorDirective; },
-/* harmony export */   "NgxIntlTelInputModule": function() { return /* reexport safe */ _lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_2__.NgxIntlTelInputModule; },
-/* harmony export */   "dropdownModuleForRoot": function() { return /* reexport safe */ _lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_2__.dropdownModuleForRoot; },
-/* harmony export */   "CountryISO": function() { return /* reexport safe */ _lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_3__.CountryISO; },
-/* harmony export */   "SearchCountryField": function() { return /* reexport safe */ _lib_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_4__.SearchCountryField; },
-/* harmony export */   "PhoneNumberFormat": function() { return /* reexport safe */ _lib_enums_phone_number_format_enum__WEBPACK_IMPORTED_MODULE_5__.PhoneNumberFormat; }
-/* harmony export */ });
-/* harmony import */ var _lib_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/ngx-intl-tel-input.component */ 3749);
-/* harmony import */ var _lib_directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lib/directives/native-element-injector.directive */ 1993);
-/* harmony import */ var _lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./lib/ngx-intl-tel-input.module */ 5098);
-/* harmony import */ var _lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lib/enums/country-iso.enum */ 5924);
-/* harmony import */ var _lib_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./lib/enums/search-country-field.enum */ 6894);
-/* harmony import */ var _lib_enums_phone_number_format_enum__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./lib/enums/phone-number-format.enum */ 5847);
-/* harmony import */ var _lib_interfaces_change_data__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lib/interfaces/change-data */ 2725);
-/*
- * Public API Surface of ngx-intl-tel-input
- */
-
-
-
-
-
-
-
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchCountryField", function() { return SearchCountryField; });
+var SearchCountryField;
+(function (SearchCountryField) {
+    SearchCountryField["DialCode"] = "dialCode";
+    SearchCountryField["Iso2"] = "iso2";
+    SearchCountryField["Name"] = "name";
+    SearchCountryField["All"] = "all";
+})(SearchCountryField || (SearchCountryField = {}));
 
 
 /***/ }),
 
-/***/ 5041:
-/*!**********************************!*\
-  !*** ./src/app/app.component.ts ***!
-  \**********************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "AppComponent": function() { return /* binding */ AppComponent; }
-/* harmony export */ });
-/* harmony import */ var projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! projects/ngx-intl-tel-input/src/lib/enums/country-iso.enum */ 5924);
-/* harmony import */ var projects_ngx_intl_tel_input_src_lib_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! projects/ngx-intl-tel-input/src/lib/enums/search-country-field.enum */ 6894);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ 9298);
-/* harmony import */ var projects_ngx_intl_tel_input_src_public_api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! projects/ngx-intl-tel-input/src/public_api */ 2261);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 1477);
-/* harmony import */ var _projects_ngx_intl_tel_input_src_lib_directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../projects/ngx-intl-tel-input/src/lib/directives/native-element-injector.directive */ 1993);
-/* harmony import */ var _projects_ngx_intl_tel_input_src_lib_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../projects/ngx-intl-tel-input/src/lib/ngx-intl-tel-input.component */ 3749);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ 93);
-
-
-
-
-
-
-
-
-
-const _c0 = function (a0, a1) { return [a0, a1]; };
-class AppComponent {
-    constructor() {
-        this.separateDialCode = false;
-        this.SearchCountryField = projects_ngx_intl_tel_input_src_lib_enums_search_country_field_enum__WEBPACK_IMPORTED_MODULE_1__.SearchCountryField;
-        this.CountryISO = projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO;
-        this.PhoneNumberFormat = projects_ngx_intl_tel_input_src_public_api__WEBPACK_IMPORTED_MODULE_2__.PhoneNumberFormat;
-        this.preferredCountries = [
-            projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.UnitedStates,
-            projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.UnitedKingdom,
-        ];
-        this.phoneForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormGroup({
-            phone: new _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormControl(undefined, [_angular_forms__WEBPACK_IMPORTED_MODULE_5__.Validators.required]),
-        });
-    }
-    changePreferredCountries() {
-        this.preferredCountries = [projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.India, projects_ngx_intl_tel_input_src_lib_enums_country_iso_enum__WEBPACK_IMPORTED_MODULE_0__.CountryISO.Canada];
-    }
-}
-AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 46, vars: 26, consts: [[2, "margin", "50px"], [1, "wrapper"], [3, "click"], ["type", "checkbox", 3, "ngModel", "ngModelChange"], [3, "formGroup"], ["f", "ngForm"], ["name", "phone", "formControlName", "phone", 3, "cssClass", "preferredCountries", "enableAutoCountrySelect", "enablePlaceholder", "searchCountryFlag", "searchCountryField", "selectFirstCountry", "selectedCountryISO", "maxLength", "phoneValidation", "separateDialCode", "numberFormat"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
-        const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, "Test International Telephone Input Form");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](3, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "button", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function AppComponent_Template_button_click_5_listener() { return ctx.changePreferredCountries(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6, "Change Preferred Countries");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "input", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ngModelChange", function AppComponent_Template_input_ngModelChange_8_listener($event) { return ctx.separateDialCode = $event; });
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](9, "label");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](10, "\u00A0Separate Dial Code?");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "form", 4, 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](14, "ngx-intl-tel-input", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](16, "button", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function AppComponent_Template_button_click_16_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1); const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵreference"](12); return _r0.reset(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](17, "Reset");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](18, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](19, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](20, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](21, "Is input valid:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](22, "pre");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](25, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](26, "Is input touched:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](27, "pre");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](29, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](30, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](31, "Is form valid:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](32, "pre");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](34, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](35, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](36, "Form value:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](37, "pre");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](38);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](39, "json");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](40, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](41, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](42, "Form validation errors:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](43, "pre");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](45, "json");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    } if (rf & 2) {
-        const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵreference"](12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngModel", ctx.separateDialCode);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("formGroup", ctx.phoneForm);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("cssClass", "custom")("preferredCountries", ctx.preferredCountries)("enableAutoCountrySelect", true)("enablePlaceholder", true)("searchCountryFlag", true)("searchCountryField", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction2"](23, _c0, ctx.SearchCountryField.Iso2, ctx.SearchCountryField.Name))("selectFirstCountry", false)("selectedCountryISO", ctx.CountryISO.India)("maxLength", 15)("phoneValidation", true)("separateDialCode", ctx.separateDialCode)("numberFormat", ctx.PhoneNumberFormat.National);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](!_r0.form.controls["phone"].invalid);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](_r0.form.controls["phone"].touched);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](_r0.form.valid);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](39, 19, _r0.form.value));
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](45, 21, _r0.form.controls["phone"].errors));
-    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_5__.CheckboxControlValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.NgModel, _projects_ngx_intl_tel_input_src_lib_directives_native_element_injector_directive__WEBPACK_IMPORTED_MODULE_3__.NativeElementInjectorDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_5__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormGroupDirective, _projects_ngx_intl_tel_input_src_lib_ngx_intl_tel_input_component__WEBPACK_IMPORTED_MODULE_4__.NgxIntlTelInputComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormControlName], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_7__.JsonPipe], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */"] });
-
-
-/***/ }),
-
-/***/ 6747:
-/*!*******************************!*\
-  !*** ./src/app/app.module.ts ***!
-  \*******************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "AppModule": function() { return /* binding */ AppModule; }
-/* harmony export */ });
-/* harmony import */ var projects_ngx_intl_tel_input_src_lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! projects/ngx-intl-tel-input/src/lib/ngx-intl-tel-input.module */ 5098);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ 9298);
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ 4919);
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser/animations */ 2352);
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ 5041);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 1477);
-
-
-
-
-
-
-class AppModule {
-}
-AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
-AppModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent] });
-AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjector"]({ providers: [], imports: [[
-            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.BrowserModule,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_4__.FormsModule,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_4__.ReactiveFormsModule,
-            projects_ngx_intl_tel_input_src_lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_0__.NgxIntlTelInputModule,
-            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__.BrowserAnimationsModule,
-        ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.BrowserModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_4__.FormsModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_4__.ReactiveFormsModule,
-        projects_ngx_intl_tel_input_src_lib_ngx_intl_tel_input_module__WEBPACK_IMPORTED_MODULE_0__.NgxIntlTelInputModule,
-        _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__.BrowserAnimationsModule] }); })();
-
-
-/***/ }),
-
-/***/ 2340:
-/*!*****************************************!*\
-  !*** ./src/environments/environment.ts ***!
-  \*****************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "environment": function() { return /* binding */ environment; }
-/* harmony export */ });
-// This file can be replaced during build by using the `fileReplacements` array.
-// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
-// The list of file replacements can be found in `angular.json`.
-const environment = {
-    production: false
-};
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
-
-
-/***/ }),
-
-/***/ 4431:
+/***/ "zUnb":
 /*!*********************!*\
   !*** ./src/main.ts ***!
   \*********************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ 4919);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 1477);
-/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 6747);
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ 2340);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "8Y7J");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "wAiw");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "ZAI4");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "AytR");
 
 
 
 
-if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.production) {
-    (0,_angular_core__WEBPACK_IMPORTED_MODULE_2__.enableProdMode)();
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
 }
-_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.platformBrowser().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_0__.AppModule)
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
     .catch(err => console.error(err));
 
 
+/***/ }),
+
+/***/ "zn8P":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "zn8P";
+
 /***/ })
 
-},
-/******/ function(__webpack_require__) { // webpackRuntimeModules
-/******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-/******/ __webpack_require__.O(0, ["vendor"], function() { return __webpack_exec__(4431); });
-/******/ var __webpack_exports__ = __webpack_require__.O();
-/******/ }
-]);
+},[[0,"runtime","vendor"]]]);
 //# sourceMappingURL=main-es2018.js.map
